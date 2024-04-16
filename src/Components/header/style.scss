@@ -1,0 +1,39 @@
+.header{
+    padding: 20px 0px;
+    background-color: #496989;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    height: 90px;
+    width: 90px;
+}
+
+.navigation{
+    width: 80%;
+    display: flex;
+    align-content:center;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 100%;
+    
+}
+
+#li{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.switchlanguage{
+    
+}
