@@ -12,16 +12,16 @@ const index = () => {
                         <a href="#presentation" className='liens' id='li' >Présentation</a>
                     </li>
                     <li>
-                        <a href="#competences" className='liens' id='li' >compétences</a>
+                        <a href="#competences" className='liens' id='li' >Compétences</a>
                     </li>
                     <li>
                         <a href="#projets" className='liens' id='li' >Projets</a>
                     </li>
                     <li>
-                        <a href="#temoignages" className='liens' id='li' >témoignages</a>
+                        <a href="#temoignages" className='liens' id='li' >Témoignages</a>
                     </li>
                     <li>
-                        <a href="#contact" className='liens' id='li'>contactez-moi</a>
+                        <a href="#contact" className='liens' id='li'>Contact</a>
                     </li>
                 </ul>
             </nav>

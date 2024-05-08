@@ -1,0 +1,106 @@
+.section-title{
+    padding-bottom: 50px;
+    background-color: #242f42;
+
+    font-family: montserrat;
+    font-weight: 600;
+    font-size: 20px;
+    margin : 0;
+    color: #fe792f;
+}
+
+.container-compétences{
+    background-color: #242f42;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+
+.web-skills{
+    background-color: #404040;
+    padding: 50px;
+    border-radius: 1.25rem;
+    margin-bottom: 50px;
+    color: white;
+
+}
+
+.web-skills-title{
+    font-family: montserrat;
+    font-weight: 600;
+    font-size: 20px;
+    margin : 0;
+    color: white;
+    padding-bottom: 1.2em;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cards2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.logo-techno{
+    width:50px;
+    height: 50px;
+   
+}
+
+.logo-techno:hover{
+    background-color: #fe792f;
+}
+
+.techno-info{
+    padding-left: 20px;
+}
+
+.techno-info2{
+    padding-right: 20px;
+}
+
+.card-title{
+    margin-bottom: 3px;
+    text-align: left;
+}
+
+.level{
+    margin-top: 0;
+    font-size: 14px;
+}
+
+.line{
+    border-left: 3px solid #fe792f;
+    display: inline-block;
+    height: 450px;
+    border-radius: 3px;
+}
+
+.digital-skills{
+    background-color: #404040;
+    padding: 50px;
+    border-radius: 1.25rem;
+    margin-bottom: 50px;
+    color: white;
+
+}
+
+.newlearn{
+    background-color: #242f42;
+    font-family: montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    align-items: center;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
