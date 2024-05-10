@@ -3,34 +3,39 @@ import Logo from "../../assets/logo mc gris .png";
 import "./style.scss";
 import Linkedin from "../../assets/pngegg.png";
 import Github from "../../assets/pngwing.com.png";
+import { useTranslation } from 'react-i18next';
 
-const index = () => {
+
+const Index = () => {
+    const { t } = useTranslation();
+
     return (
         <div className='footer'>
             <div className='footer-info'>
                 <div className='logoandaddress'>
-                    <img src={Logo}  className="logof" alt="logo de mathieu c" />
+                    <a href="">
+                        <img src={Logo}  className="logof" alt="logo de mathieu c" />
+                    </a>
                     Lyon, France
                 </div>
                 <div className="footer__addr">
                     <h2>Contact</h2>
                     <address>
-                        <a className="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+                        <a className="footer__btn" href="mailto:example@gmail.com"> {t('footerbtn')} </a>
                     </address>
+                    <p className='copylarge'> Copyright 2024 &copy; {t('footerright')}</p>
                 </div>
                 <div className='follow'>
-                    <h2>Suivez-moi !</h2>
+                    <h2> {t('footerfollow')}</h2>
                     <div className='socials'>
                         <img src={Linkedin} className="social" alt="logo de LinkedIn" />
                         <img src={Github} className="social" alt="logo de Github" />
                     </div>
                 </div>
-            </div>
-            <div className="legal">
-                <p> Copyright 2024 &copy;.Tous droits réservés.</p>
-            </div>
+                <p className='copysmall'> Copyright 2024 &copy; {t('footerright')}</p>
+            </div> 
         </div>
     );
 };
 
-export default index;
+export default Index;

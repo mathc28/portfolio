@@ -1,33 +1,55 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from "../../assets/logo mc gris .png";
-import "./style.scss"
+import hamburger from "../../assets/bars-solid.svg"
+import { useTranslation } from 'react-i18next';
+import "./style.scss";
 
-const index = () => {
+const Header = () => {
+    const { t, i18n } = useTranslation();
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const handleMenuToggle = () => {
+        setMenuOpen(!menuOpen);
+    };
+
     return (
-        <div className='header'>
+        <div className={`header ${menuOpen ? 'open' : ''}`}>
             <img src={logo} className="logo" alt="logo de Mathieu C" />
-            <nav className='navigation'>
+            <button className="menu-toggle" onClick={handleMenuToggle}>
+                <img src={hamburger} className="hamburger" alt="logo de Mathieu C" />
+            </button>
+            <div className={`navigation ${menuOpen ? 'open' : ''}`}>
                 <ul className='nav'> 
                     <li>
-                        <a href="#presentation" className='liens' id='li' >Présentation</a>
+                        <a href="#presentation" className='liens' id='li'>{t('description')}</a>
                     </li>
                     <li>
-                        <a href="#competences" className='liens' id='li' >Compétences</a>
+                        <a href="#competences" className='liens' id='li'>{t('competences')}</a>
                     </li>
                     <li>
-                        <a href="#projets" className='liens' id='li' >Projets</a>
+                        <a href="#projets" className='liens' id='li'> {t('projets')} </a>
                     </li>
                     <li>
-                        <a href="#temoignages" className='liens' id='li' >Témoignages</a>
+                        <a href="#temoignages" className='liens' id='li'> {t('temoignages')} </a>
                     </li>
                     <li>
-                        <a href="#contact" className='liens' id='li'>Contact</a>
+                        <a href="#contact" className='liens' id='li'> {t('contact')} </a>
                     </li>
                 </ul>
-            </nav>
-            <button className='switchlanguage'>FR/EN</button>
+            </div>
+            <button
+                className='switchlanguage'
+                onClick={() => {
+                    if (i18n.resolvedLanguage === 'fr') {
+                        i18n.changeLanguage('en');
+                    } else {
+                        i18n.changeLanguage('fr');
+                    }
+                }}>
+                {i18n.resolvedLanguage === 'fr' ? '🇬🇧 / 🇫🇷' : '🇫🇷 / 🇬🇧'}
+            </button>           
         </div>
     );
 };
 
-export default index;
+export default Header;

@@ -1,88 +1,158 @@
-.intro{
-    padding-top: 30px;
+/* Styles de base pour la barre de navigation */
+.header {
+  padding: 10px 0px;
+  background-color: #242f42;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
-.header{
-    padding: 10px 0px;
-    background-color: #0e1451;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
+.logo {
+  height: 70px;
+  width: 70px;
+  margin-left: 20px;
 }
 
-.logo{
-    height: 70px;
-    width: 70px;
-    margin-left: 20px;
+.hamburger{
+  height: 70px;
+  width: 70px;
+  margin-left: 20px;
 }
 
-.navigation{
-    width: 80%;
-    display: flex;
-    align-content:center;
-}
-.nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-
-    width: 100%;
-    
+.navigation {
+  width: 80%;
+  display: flex;
+  align-content: center;
 }
 
-#li{
-    text-decoration: none;
-    list-style-type: none;
-    color: white;
-    font-family: montserrat;
-    font-size: 16px;
-    font-weight: 600;
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 0;
+}
 
-    box-shadow: inset 0 0 0 0 #0e1451;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+#li {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+  font-family: montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px;
+  box-shadow: inset 0 0 0 0 #0e1451;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 #li:hover {
-    box-shadow: inset 100px 0 0 0 #fe792f;
-    color: white;
+  box-shadow: inset 150px 0 0 0 #fe792f;
+  color: white;
+  border-radius: 5px;
 }
 
-
-
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .switchlanguage {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-    font-family: montserrat;
-    font-size: 16px;
-    font-weight: 600;
-    color: white;
-    background-color: #0e1451;
-    padding: 10px 42px;
-    border: solid white 2px;
-    box-shadow: none;
-    border-radius: 25px;
-    margin-right: 20px;
-
-    transition : 1000ms;
-    transform: translateY(0);
-   
-    cursor: pointer;
+  align-items: center;
+  width: 150px;
+  font-family: montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: #242f42;
+  padding: 10px 25px;
+  border: solid white 2px;
+  box-shadow: none;
+  border-radius: 25px;
+  margin-right: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
-.switchlanguage:hover{
-transition : 1000ms;
-padding: 10px 50px;
-transform : translateY(-0px);
-background-color: white;
-color: #0e1451;
-border: solid 2px #0e1451;
+.switchlanguage:hover {
+  padding: 10px 40px;
+  transform: translateY(-5px);
+  background-color: white;
+  color: #0e1451;
+  border: solid 2px #0e1451;
 }
 
+/* Styles pour le menu hamburger */
+.menu-toggle {
+  display: none; /* Masquer le bouton hamburger par défaut */
+}
 
+.menu-toggle span {
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #ffffff;
+  margin: 5px;
+}
+
+/* Styles pour les écrans plus petits (responsive) */
+@media screen and (max-width: 767px) {
+  .menu-toggle {
+      display: block; /* Afficher le bouton hamburger lorsque la largeur de l'écran est inférieure à 767px */
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      z-index: 999;
+      cursor: pointer;
+      background-color: #242f42;
+      border: none;
+
+  }
+
+  .header {
+      position: relative; /* Ajoutez une position relative au conteneur de la barre de navigation */
+  }
+
+  .navigation {
+      display: none; /* Masquer le menu de navigation par défaut sur les petits écrans */
+      position: absolute;
+      top: calc(100% + 15px); /* Positionner la navigation sous le bouton hamburger */
+      left: 0;
+      width: 100%;
+      background-color: #242f42;
+      padding: 20px 0;
+      text-align: center;
+  }
+
+  .navigation.open {
+      display: block; /* Afficher le menu de navigation lorsque le bouton hamburger est cliqué */
+  }
+
+  .nav {
+      flex-direction: column;
+  }
+
+  .nav li {
+      margin: 10px 0;
+  }
+
+  .switchlanguage {
+      margin: 20px 0px;
+      width: 120px;
+  }
+
+  .header{
+    flex-direction: column;
+  }
+
+  .logo{
+    margin:0;
+    width: 150px;
+    height: 150px;
+  }
+
+  .hamburger{
+    width: 30px;
+    height: 30px;
+  }
+}

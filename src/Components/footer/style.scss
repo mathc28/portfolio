@@ -5,13 +5,12 @@
     background-color: #242f42;
     padding-left: 10px;
     border-top: 1px solid #e5e5e5;
-
 }
 
 .footer-info{
     display: flex;
     flex-flow: row;
-    align-items:flex-start;
+    align-items:center;
     justify-content: space-between;
     padding: 20px 0px 0px 0px;
 }
@@ -21,13 +20,23 @@
     flex-direction: column;
     align-items: center;
     padding-left: 100px;
+    padding-bottom: 20px;
 }
 
 .logof{
     width: 100px;
     height: 100px;
-    padding: 20px 0px;
+    padding: 0px 0px 20px 0px;
 
+
+}
+
+.footer__addr h2{
+    padding-bottom: 15px;
+}
+
+.footer__addr p{
+    margin: 0;
 }
 
 .footer address {
@@ -37,33 +46,54 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 15px;
 }
   
 .footer__btn {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    height: 36px;
-    max-width: max-content;
-    background-color: #496989;
-    border-radius: 100px;
-    color: #A8CD9F;
-    line-height: 0;
-    font-size: 1rem;
-    padding: 0 1em;
+
+    font-family: montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #242f42;
+    padding: 10px 42px;
+    border: solid white 2px;
+    box-shadow: none;
+    border-radius: 25px;
     text-decoration: none;
-    
+
+    transition : 1000ms;
+    transform: translateY(0);
+   
+    cursor: pointer;
 }
+
+.footer__btn:hover{
+    transition : 1000ms;
+    padding: 10px 40px;
+    transform : translateY(-0px);
+    background-color: white;
+    color: #242f42;
+    border: solid 2px #242f42;
+    }
 
 .follow{
     padding-right: 100px;
+}
+
+.follow h2{
+    padding-bottom: 20px;
 }
 
 .socials{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-bottom: 20px;
 }
 
 .social{
@@ -71,3 +101,42 @@
     height: 50px;
 }
   
+
+.copysmall{
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+
+    .logoandaddress{
+        padding:0 0 20px 50px;
+    }
+
+    .follow {
+    padding-right: 50px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+
+    .logoandaddress{
+        padding:0 0 20px 0px;
+    }
+
+    .follow {
+    padding-right: 0px;
+    }
+
+    .footer-info{
+        flex-flow: column;
+    }
+
+    .copysmall{
+        display: flex;
+    }
+
+    .copylarge{
+        display: none;
+    }
+}
+

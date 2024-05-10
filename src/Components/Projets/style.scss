@@ -1,0 +1,171 @@
+.page.card-1-page {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  color: white;
+  background: #242f42;
+  padding: 0px 150px 100px 150px;
+}
+  
+.section-title{
+  padding-bottom: 50px;
+  background-color: #242f42;
+
+  font-family: montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  margin : 0;
+  color: #fe792f;
+}
+
+
+  h2,
+  h4 {
+    margin: 0;
+    font-weight: 500;
+  }
+  
+  .cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    gap: 80px;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 50px;
+}
+  
+  .card-1-page .card {
+    position: relative;
+    perspective: 1000px;
+    width: 270px;
+    height: 350px;
+  }
+  
+  .card-1-page .card header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    margin-bottom: 26px;
+  }
+  
+  .card-1-page .card header h2 {
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+  
+  .card-1-page .card .front,
+  .card-1-page .card .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backface-visibility: hidden;
+    background: #404040;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.6s;
+    cursor: pointer;
+  }
+  
+  .photo-projet{
+    height: 250px;
+    border-radius: 5px;
+    width: 230px;
+    object-fit: cover;
+  }
+
+  .card-1-page .back {
+    transform: rotateY(180deg);
+  }
+  
+  .card-1-page input {
+    position: absolute;
+    scale: 0;
+  }
+  
+  .card-1-page input:checked ~ .card .back {
+    transform: rotateY(0);
+  }
+  
+  .card-1-page input:checked ~ .card .front {
+    transform: rotateY(-180deg);
+  }
+  
+  .card var {
+    font-style: normal;
+    font-size: 80px;
+    line-height: 1;
+  }
+  
+  .card h3 {
+    margin:5px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    text-align: left;
+  }
+
+  .card h4 {
+    margin:5px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    text-align: left;
+  }
+
+  .card-description{
+    margin: 0;
+    height: 80px;
+  }
+  
+  #summary :is(var, h3) {
+    color: #3b82f6;
+  }
+  
+  #overdue :is(var, h3) {
+    color: #e56363;
+  }
+  
+  #features :is(var, h3) {
+    color: #25b697;
+  }
+  
+  .card :is(h4, p) {
+    font-size: 16px;
+    color: white;
+  }
+  
+  .card p {
+    margin-top: 25px;
+  }
+
+  .technos-projet{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .techno-projet{
+    width: 50px;
+    padding-bottom: 30px;
+  }
+
+  .link-website a{
+    color: white;
+    text-decoration: underline;
+    font-size: 16px;
+    font-family: montserrat;
+    font-size: 600;
+  }
+
+  
+@media screen and (max-width: 600px) {
+  .page.card-1-page {
+    padding: 0px;
+  }
+}
