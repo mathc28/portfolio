@@ -11,7 +11,7 @@ const Index = () => {
     const { t } = useTranslation();
     return (
         <div className='container-témoignages' id="temoignages">
-            <h2 className='section-title'>{t('temoigtitre')}</h2>
+            <h2 className='section-comp-title'>{t('temoigtitre')}</h2>
             <div className="animation">
                 <img src={Minigear} alt=""  className="one spin-one"/>
                 <img src={Biggear} alt=""  className="two spin-two"/>

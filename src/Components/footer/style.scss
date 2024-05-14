@@ -102,10 +102,11 @@
     width: 50px;
     height: 50px;
 }
-  
 
 .copysmall{
     display: none;
+    margin-top: 0px;
+
 }
 
 @media screen and (max-width: 767px) {
@@ -122,7 +123,7 @@
 @media screen and (max-width: 620px) {
 
     .logoandaddress{
-        padding:0 0 20px 0px;
+        padding:0 0 15px 0px;
     }
 
     .follow {
@@ -140,5 +141,22 @@
     .copylarge{
         display: none;
     }
+
+    .logof{
+        padding: 0px;
+    }
+
+    .footer__addr h2{
+        padding-bottom: 5px;    
+    }
+
+    .follow h2{
+        padding-bottom: 5px;
+    }
+
+    .socials{
+        padding-bottom: 15px;
+    }
+   
 }
 

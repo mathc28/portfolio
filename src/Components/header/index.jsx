@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import logo from "../../assets/logo-perso/logo mc gris .png";
-import hamburger from "../../assets/menu hamburger/bars-solid.svg"
+import hamburger from "../../assets/menu-hamburger/bars-solid.svg"
 import { useTranslation } from 'react-i18next';
 import "./style.scss";
 

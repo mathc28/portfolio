@@ -43,10 +43,16 @@
 }
 
 .txt1{
-    padding: 0px 100px 100px 100px;
+    padding: 0px 75px 100px 75px;
     text-align: justify;
     font-weight: 00;
     font-size: 16px;
+}
+
+@media screen and (max-width: 1000px) {
+    .txt1{
+        padding: 0px 25px 100px 25px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -57,18 +63,22 @@
 
     .photo{
         border-radius: 25%;
-        width: 200px;
-        height: 200px;
-        margin: 0;
+        width: 150px;
+        height: 150px;
         align-items: center;
-        padding: 20px 0px;
+        margin: 0;
     }
 
     .txt1{
-        padding: 0px 50px 50px 50px;
-        text-align: justify;
-        font-weight: 00;
-        font-size: 16px;
+        padding: 0px 25px 30px 25px;
+    }
+
+    .work{
+        padding-bottom: 30px;
+    }
+
+    .textpresentation{
+        margin : 0px;
     }
 }
 

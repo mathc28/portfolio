@@ -29,7 +29,7 @@ export const ContactUs = () => {
 
   return (
     <div className='contactme' id="contact">
-        <h2 className='section-title'> {t('contacttitre')}</h2>
+        <h2 className='section-comp-title'> {t('contacttitre')}</h2>
         <div>
             <form ref={form} onSubmit={sendEmail} className='form-contact'>
                 <p className='txt-contact'>  {t('contacttxt')}</p>

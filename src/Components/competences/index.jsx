@@ -21,7 +21,7 @@ const Index = () => {
     const { t } = useTranslation();
     return (
         <div id="competences">
-            <h2 className='section-title'>{t('comptitre')}</h2>
+            <h2 className='section-comp-title'>{t('comptitre')}</h2>
             <div className='container-compétences'>
                 <div className='web-skills'>
                     <div className='web-skills-title'>{t('compsoustitre')}</div>
@@ -231,7 +231,7 @@ const Index = () => {
                 </div>
             </div>
             <div className='newlearn'>{t('nsl')}</div>
-            <h2 className='section-title' id="projets">{t('projects')} </h2>
+            <h2 className='section-comp-title' id="projets">{t('projects')} </h2>
         </div>
     );
 };

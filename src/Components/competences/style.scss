@@ -1,15 +1,16 @@
-.section-title{
-    padding-bottom: 50px;
+.section-comp-title{
+
     background-color: #242f42;
 
     font-family: montserrat;
     font-weight: 700;
     font-size: 24px;
-    margin : 0;
     color: #fe792f;
     text-decoration: underline;
-
     text-align: center;
+
+    padding: 0px 0px 50px 0px;
+
 }
 
 
@@ -21,7 +22,6 @@
     justify-content: space-evenly;
     width: auto;
     padding: 0px 150px;
-
 }
 
 
@@ -217,8 +217,17 @@
 }
 
 @media screen and (max-width: 767px) {
+
     .container-compétences{
         padding: 0px 50px;
+    }
+
+    .web-skills{
+        margin-bottom: 30px;
+    }
+
+    .digital-skills{
+        margin-bottom: 30px;
     }
 
     .skill{
@@ -233,6 +242,10 @@
 
     .newlearn{
         padding: 0px 50px 50px 50px;
+    }
+
+    .section-comp-title{
+        padding: 0px 0px 30px 0px;
     }
 }
 

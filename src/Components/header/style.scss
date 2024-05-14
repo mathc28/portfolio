@@ -75,7 +75,7 @@ ul {
 }
 
 .switchlanguage:hover {
-  padding: 10px 40px;
+  padding: 10px 25px;
   transform: translateY(-5px);
   background-color: white;
   color: #0e1451;
@@ -144,8 +144,9 @@ ul {
 
   .logo{
     margin:0;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
+    padding-bottom: 10px;
   }
 
   .hamburger{
