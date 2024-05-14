@@ -1,20 +1,18 @@
 import "./style.scss";
-import Photo1 from "../../assets/projet-1.png";
-import Photo2 from "../../assets/projet-2.png";
-import Photo3 from "../../assets/projet-3.png";
-import Photo4 from "../../assets/projet-4.png";
-import Photo5 from "../../assets/projet-5.png";
-import Photo6 from "../../assets/projet-6.png";
-import Photo7 from "../../assets/projet-7.png";
-import Photo8 from "../../assets/Projet-8.png" 
+import Photo1 from "../../assets/photo-projets/projet-1.png";
+import Photo2 from "../../assets/photo-projets/projet-2.png";
+import Photo3 from "../../assets/photo-projets/projet-3.png";
+import Photo4 from "../../assets/photo-projets/projet-4.png";
+import Photo5 from "../../assets/photo-projets/projet-5.png";
+import Photo6 from "../../assets/photo-projets/projet-6.png";
+import Photo7 from "../../assets/photo-projets/projet-7.png";
+import Photo8 from "../../assets/photo-projets/projet-8.png"; 
 
 
-
-
-import Logohtml from "../../assets/logo-html2.png"; 
-import Logocss from "../../assets/logo-css2.png"; 
-import Logojs from "../../assets/logo-js2.png";
-import Logoreact from "../../assets/logo-react2.png"
+import Logohtml from "../../assets/logo-techno/logo-html2.png"; 
+import Logocss from "../../assets/logo-techno/logo-css2.png"; 
+import Logojs from "../../assets/logo-techno/logo-js2.png";
+import Logoreact from "../../assets/logo-techno/logo-react2.png"
 
 
 const cards = [

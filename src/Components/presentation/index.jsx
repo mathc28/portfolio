@@ -11,7 +11,7 @@ const lngs = {
 
 
 const Presentation = () => {
-    const { t,i18n } = useTranslation();
+    const {t} = useTranslation();
     return (
         <div id="presentation">
             <div className='intro'> 

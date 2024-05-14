@@ -2,7 +2,6 @@
 import { Routes, Route } from "react-router-dom";
 
 import Accueil from "../Pages/accueil";
-import Projets from "../Pages/projets";
 
 
 /**
@@ -11,8 +10,8 @@ import Projets from "../Pages/projets";
 function Router (){
     return <Routes>
         <Route path="/" element={<Accueil />} />
-        <Route path="/projets/:id" element={<Projets />} />
     </Routes>
 }
 
 export default Router
+

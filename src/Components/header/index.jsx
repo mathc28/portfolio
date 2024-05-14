@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import logo from "../../assets/logo mc gris .png";
-import hamburger from "../../assets/bars-solid.svg"
+import logo from "../../assets/logo-perso/logo mc gris .png";
+import hamburger from "../../assets/menu hamburger/bars-solid.svg"
 import { useTranslation } from 'react-i18next';
 import "./style.scss";
 
@@ -36,8 +36,7 @@ const Header = () => {
                         <a href="#contact" className='liens' id='li'> {t('contact')} </a>
                     </li>
                 </ul>
-            </div>
-            <button
+                <button
                 className='switchlanguage'
                 onClick={() => {
                     if (i18n.resolvedLanguage === 'fr') {
@@ -47,7 +46,8 @@ const Header = () => {
                     }
                 }}>
                 {i18n.resolvedLanguage === 'fr' ? '🇬🇧 / 🇫🇷' : '🇫🇷 / 🇬🇧'}
-            </button>           
+            </button>
+            </div>          
         </div>
     );
 };

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import Minigear from "../../assets/petit-gear-solid.svg";
-import Biggear from "../../assets/gros-gear-solid.svg";
+import Minigear from "../../assets/testimonials-gears/petit-gear-solid.svg";
+import Biggear from "../../assets/testimonials-gears/gros-gear-solid.svg";
 
 
 

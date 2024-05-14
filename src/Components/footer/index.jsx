@@ -1,8 +1,8 @@
 import React from 'react';
-import Logo from "../../assets/logo mc gris .png";
+import Logo from "../../assets/logo-perso/logo mc gris .png";
 import "./style.scss";
-import Linkedin from "../../assets/pngegg.png";
-import Github from "../../assets/pngwing.com.png";
+import Linkedin from "../../assets/logo-techno/pngegg.png";
+import Github from "../../assets/logo-techno/github-logo.png";
 import { useTranslation } from 'react-i18next';
 
 
