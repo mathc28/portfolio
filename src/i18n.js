@@ -39,7 +39,7 @@ i18n
             socialmed:'Réseaux sociaux',
             contentcrea:'Création de contenu',
             stratmarket:'Stratégie marketing',
-            nsl:"N'arrêtez jamais d'apprendre. <br/> Nouvelles compétences en cours : figma, UI, Next.js, gsap",
+            nsl:"N'arrêtez jamais d'apprendre. Nouvelles compétences en cours : figma, UI, Next.js, gsap",
             projects: 'PROJETS',
 
             temoigtitre:"TÉMOIGNAGES",
@@ -81,7 +81,7 @@ i18n
             socialmed:'Social media',
             contentcrea:'Content creation',
             stratmarket:'Marketing strategy',
-            nsl:'Never stop learning. <br /> New skills in progress : figma, UI, Next.js, gsap',
+            nsl:'Never stop learning. New skills in progress : figma, UI, Next.js, gsap',
             projects: 'PROJECTS',
 
             temoigtitre:"TESTIMONIALS",

@@ -7,12 +7,14 @@ import Photo5 from "../../assets/photo-projets/projet-5.png";
 import Photo6 from "../../assets/photo-projets/projet-6.png";
 import Photo7 from "../../assets/photo-projets/projet-7.png";
 import Photo8 from "../../assets/photo-projets/projet-8.png"; 
+ 
 
 
 import Logohtml from "../../assets/logo-techno/logo-html2.png"; 
 import Logocss from "../../assets/logo-techno/logo-css2.png"; 
 import Logojs from "../../assets/logo-techno/logo-js2.png";
-import Logoreact from "../../assets/logo-techno/logo-react2.png"
+import Logoreact from "../../assets/logo-techno/logo-react2.png";
+import Logoblanc from "../../assets/logo-techno/fond-transparent.png";
 
 
 const cards = [
@@ -23,6 +25,7 @@ const cards = [
     photoproj: Photo1,
     techno1: Logohtml,
     techno2: Logocss,
+    link: "https://github.com/mathc28/Riding_Cities",
   },
   {
     name: "Booki",
@@ -31,6 +34,7 @@ const cards = [
     photoproj: Photo2,
     techno1: Logohtml,
     techno2: Logocss,
+    link: "https://github.com/mathc28/Booki"
   },
   {
     name: "OhMyFood Paris",
@@ -39,6 +43,7 @@ const cards = [
     photoproj: Photo3,
     techno1: Logohtml,
     techno2: Logocss,
+    link: "https://github.com/mathc28/Ohmyfood",
   },
   {
     name: "Print it",
@@ -47,6 +52,7 @@ const cards = [
     photoproj: Photo4,
     techno1: Logojs,
     techno2: Logocss,
+    link_:"https://github.com/mathc28/Print_It",
   },
   {
     name: "Portfolio Architecte",
@@ -55,12 +61,16 @@ const cards = [
     photoproj: Photo5,
     techno1: Logojs,
     techno2: Logocss,
+    link: "https://github.com/mathc28/Portfolio_Sophie_Bluel",
   },
   {
     name: "Qwenta",
     description: "Qwenta souhaite faire développer un site permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement, en quelques clics. ",
     more: "Learn More",
     photoproj: Photo6,
+    techno1: Logoblanc,
+    techno2: Logoblanc,
+    link: "https://github.com/mathc28/Qwenta"
     
   },{
     name: "Argent Bank",
@@ -77,6 +87,7 @@ const cards = [
     photoproj: Photo8,
     techno1: Logoreact,
     techno2: Logocss,
+    Link: "https://github.com/mathc28/Kasa"
   },
   {
     name: "Mon Portfolio ",
@@ -85,6 +96,7 @@ const cards = [
     photoproj: Photo4,
     techno1: Logoreact,
     techno2: Logocss,
+    link: "https://github.com/mathc28/portfolio"
   },
 ];
 
@@ -115,7 +127,8 @@ const Card1 = () => {
                   </div>
                 </div>
                 <div className="link-website">
-                  <a href="">Visitez le site</a>
+                  <a href={card.link}>Voir le code</a>
+                
                 </div>
               </div>
             </div>
