@@ -27,7 +27,7 @@ i18n
 
             pres1: "Salut, moi c'est",
             pres2: 'et je suis Développeur Web Junior ',
-            pres3: "A 31 ans, je suis actuellement en reconversion pour travailler dans le milieu du développement web en suivant une formation de devellopeur web front-end chez Open-Classroom. Diplomé d'un master (bac +5) à l'ESC Clermont et fort de plusieurs années et expériences dans le milieu du marketing digital, j'ai décidé de me réorienter dans le développement web. Lors de cette formation j’ai pu acquérir les bases des languages utilisés dans le developpement du front-end (HTML, CSS, Javascript) et de les appliquer lors de la réalisation de projets. Je suis à la recherche d'un poste de developpeur web junior dans la region lyonnaise ou à l'étranger.",
+            pres3: "A 31 ans, je suis actuellement en reconversion pour travailler dans le milieu du développement web en suivant une formation de dévellopeur web front-end chez Open-Classroom. Diplomé d'un master (bac +5) à l'ESC Clermont et fort de plusieurs années et expériences dans le milieu du marketing digital, j'ai décidé de me réorienter dans le développement web. Lors de cette formation j’ai pu acquérir les bases des languages utilisés dans le developpement du front-end (HTML, CSS, Javascript) et de les appliquer lors de la réalisation de projets. Je suis à la recherche d'un poste de developpeur web junior dans la région lyonnaise ou à l'étranger.",
 
             comptitre:'MES COMPÉTENCES',
             compsoustitre:'Développement Web',

@@ -25,7 +25,8 @@ const cards = [
     photoproj: Photo1,
     techno1: Logohtml,
     techno2: Logocss,
-    link: "https://github.com/mathc28/Riding_Cities",
+    link1: "https://github.com/mathc28/Riding_Cities",
+    link2: "https://mc-riding-cities.vercel.app/"
   },
   {
     name: "Booki",
@@ -34,7 +35,8 @@ const cards = [
     photoproj: Photo2,
     techno1: Logohtml,
     techno2: Logocss,
-    link: "https://github.com/mathc28/Booki"
+    link1: "https://github.com/mathc28/Booki",
+    link2: "https://mc-booki.vercel.app"
   },
   {
     name: "OhMyFood Paris",
@@ -43,7 +45,8 @@ const cards = [
     photoproj: Photo3,
     techno1: Logohtml,
     techno2: Logocss,
-    link: "https://github.com/mathc28/Ohmyfood",
+    link1: "https://github.com/mathc28/Ohmyfood",
+    link2: "https://mc-ohmyfood.vercel.app"
   },
   {
     name: "Print it",
@@ -52,7 +55,8 @@ const cards = [
     photoproj: Photo4,
     techno1: Logojs,
     techno2: Logocss,
-    link_:"https://github.com/mathc28/Print_It",
+    link1:"https://github.com/mathc28/Print_It",
+    link2:"https://mc-printit.vercel.app"
   },
   {
     name: "Portfolio Architecte",
@@ -61,7 +65,8 @@ const cards = [
     photoproj: Photo5,
     techno1: Logojs,
     techno2: Logocss,
-    link: "https://github.com/mathc28/Portfolio_Sophie_Bluel",
+    link1: "https://github.com/mathc28/Portfolio_Sophie_Bluel",
+    link2: "https://mc-portfolio-architecte.vercel.app"
   },
   {
     name: "Qwenta",
@@ -70,7 +75,8 @@ const cards = [
     photoproj: Photo6,
     techno1: Logoblanc,
     techno2: Logoblanc,
-    link: "https://github.com/mathc28/Qwenta"
+    link1: "https://github.com/mathc28/Qwenta",
+    link2: "https://github.com/mathc28/Qwenta"
     
   },{
     name: "Argent Bank",
@@ -79,6 +85,8 @@ const cards = [
     photoproj: Photo7,
     techno1: Logoreact,
     techno2: Logocss,
+    link1: "https://github.com/mathc28/projet10-argentbank",
+    link2: "https://github.com/mathc28/projet10-argentbank",
   },
   {
     name: "Kasa",
@@ -87,7 +95,8 @@ const cards = [
     photoproj: Photo8,
     techno1: Logoreact,
     techno2: Logocss,
-    Link: "https://github.com/mathc28/Kasa"
+    Link1: "https://github.com/mathc28/Kasa",
+    Link2:"https://mc-kasa.vercel.app"
   },
   {
     name: "Mon Portfolio ",
@@ -96,7 +105,8 @@ const cards = [
     photoproj: Photo4,
     techno1: Logoreact,
     techno2: Logocss,
-    link: "https://github.com/mathc28/portfolio"
+    link1: "https://github.com/mathc28/portfolio",
+    link2: "https://mathcoc.vercel.app/"
   },
 ];
 
@@ -127,8 +137,8 @@ const Card1 = () => {
                   </div>
                 </div>
                 <div className="link-website">
-                  <a href={card.link}>Voir le code</a>
-                
+                  <a href={card.link1} target=" _blank">Voir le code</a>
+                  <a href={card.link2} target=" _blank">Voir le site</a>
                 </div>
               </div>
             </div>

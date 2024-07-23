@@ -143,6 +143,8 @@
 
   .link-website{    
     text-align:center;
+    display: flex;
+    justify-content: space-between;
   }
 
   .link-website a{
@@ -152,6 +154,11 @@
     font-family: montserrat;
     font-size: 600;
     text-decoration: none;
+
+  }
+
+  .link-website :hover{
+    text-decoration: underline;
   }
 
   
