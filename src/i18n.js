@@ -27,7 +27,7 @@ i18n
 
             pres1: "Salut, moi c'est",
             pres2: 'et je suis Développeur Web Junior ',
-            pres3: "A 31 ans, je suis actuellement en reconversion pour travailler dans le milieu du développement web en suivant une formation de dévellopeur web front-end chez Open-Classroom. Diplomé d'un master (bac +5) à l'ESC Clermont et fort de plusieurs années et expériences dans le milieu du marketing digital, j'ai décidé de me réorienter dans le développement web. Lors de cette formation j’ai pu acquérir les bases des languages utilisés dans le developpement du front-end (HTML, CSS, Javascript) et de les appliquer lors de la réalisation de projets. Je suis à la recherche d'un poste de developpeur web junior dans la région lyonnaise ou à l'étranger.",
+            pres3: "À 31 ans, je suis en reconversion professionnelle pour intégrer le domaine du développement web. Actuellement en formation de développeur web front-end chez OpenClassrooms et titulaire d'un master (bac +5) de l'ESC Clermont, j'ai choisi de me réorienter vers le développement web pour relever de nouveaux défis professionnels. Au cours de cette formation, j'ai acquis une forte compréhension des langages de programmation front-end tels que HTML, CSS et JavaScript, et j'ai pu appliquer ces compétences à la réalisation de projets concrets. Je suis désormais à la recherche d'un poste de développeur web junior dans la région lyonnaise ou à l'international.",
 
             comptitre:'MES COMPÉTENCES',
             compsoustitre:'Développement Web',
@@ -41,6 +41,21 @@ i18n
             stratmarket:'Stratégie marketing',
             nsl:"N'arrêtez jamais d'apprendre. Nouvelles compétences en cours : figma, UI, Next.js, gsap",
             projects: 'PROJETS',
+            ensavplus: 'En savoir plus',
+            projetfermer:'fermer',
+            projettechnos:'Technologies utilisées :',
+            projetliencode:'Voir le code',
+            projetliensite:'Voir le site',
+
+            projrc: 'Mise à jour de la page Internet de Riding Cities, une association sportive qui promeut le skate en région.',
+            projbooki :'Intégration de la nouvelle interface du site web de Booki.',
+            projohmyfood:'Développement d’un site “mobile first” qui répertorie les menus de restaurants gastronomiques.',
+            projprintit: 'Dynamiser le site Internet statique d’une petite imprimerie familiale nommée Print it avec l’utilisation de Javascript.',
+            projportfolioarchitecte:"Mise-à-jour technologique d'un site portfolio d'une architecte d'intérieur",
+            projqwenta:'Qwenta souhaite faire développer un site permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement, en quelques clics.',
+            projargbank: 'Développement front-end d’une application bancaire en utilisant React et Redux pour créer une expérience utilisateur dynamique et réactive.',
+            projkasa:'Refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end.',
+            projportfolio:'Création de mon propre portfolio',
 
             temoigtitre:"TÉMOIGNAGES",
             txttem:"Cette section n'est pas encore prête. D'autres témoignages seront bientôt ajoutés",
@@ -68,7 +83,7 @@ i18n
             contact:'Contact',
             pres1: "Hi, I am",
             pres2: 'and I am a Junior Web Developer',
-            pres3: "At 31 years old, I am currently retraining to work in the web development sector by following training as a front-end web developer at Open-Classroom. Graduated with a master's degree (bac +5) from ESC Clermont and with several years and experience in the world of digital marketing, I decided to reorient myself in web development. During this training I was able to acquire the basics of the languages ​used in front-end development (HTML, CSS, Javascript) and apply them when carrying out projects. I am looking for a position as a junior web developer in the Lyon region or abroad.",
+            pres3: "At 31 years old, I am undergoing a career change to enter the field of web development. Currently enrolled in a front-end web developer training program at OpenClassrooms and holding a master's degree from ESC Clermont, I have chosen to pivot towards web development to take on new professional challenges. During this training, I have gained a strong understanding of front-end programming languages such as HTML, CSS, and JavaScript, and I have been able to apply these skills to the completion of concrete projects. I am now seeking a junior web developer position in the Lyon region or internationally.",
 
 
             comptitre:'MY SKILLS',
@@ -83,6 +98,21 @@ i18n
             stratmarket:'Marketing strategy',
             nsl:'Never stop learning. New skills in progress : figma, UI, Next.js, gsap',
             projects: 'PROJECTS',
+            ensavplus: 'Learn more',
+            projetfermer:'close',
+            projettechnos:'Technologies used:',
+            projetliencode:'Go to code',
+            projetliensite:'Go to website',
+
+            projrc: 'Update of the Riding Cities website, a sports association promoting skateboarding in the region.',
+            projbooki :'Integration of the new interface for the Booki website.',
+            projohmyfood:'Development of a "mobile first" website that lists gourmet restaurant menus.',
+            projprintit: 'Enhance the static website of a small family-owned print shop named Print it by using JavaScript.',
+            projportfolioarchitecte:"Technological update of an interior designer's portfolio website.",
+            projqwenta:'Qwenta aims to develop a website that allows restaurateurs to easily display and format their menus with just a few clicks.',
+            projargbank: 'Front-end development of a banking application using React and Redux to create a dynamic and responsive user experience.',
+            projkasa:'Complete overhaul to transition to a full JavaScript stack with Node.js on the back end and React on the front end.',
+            projportfolio:'Creation of my own portfolio.',
 
             temoigtitre:"TESTIMONIALS",
             txttem:'This section is not ready yet. More tesimonials will be add soon',

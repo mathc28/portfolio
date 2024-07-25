@@ -19,17 +19,23 @@ const Index = () => {
                     Lyon, France
                 </div>
                 <div className="footer__addr">
-                    <h2>Contact</h2>
-                    <address>
-                        <a className="footer__btn" href="mailto:example@gmail.com"> {t('footerbtn')} </a>
-                    </address>
+                    <div className='contact' >
+                        <h2>Contact</h2>
+                        <address>
+                            <a className="footer__btn" href="mailto:example@gmail.com"> {t('footerbtn')} </a>
+                        </address>
+                    </div>
                     <p className='copylarge'> Copyright 2024 &copy; {t('footerright')}</p>
                 </div>
                 <div className='follow'>
                     <h2> {t('footerfollow')}</h2>
                     <div className='socials'>
-                        <img src={Linkedin} className="social" alt="logo de LinkedIn" />
-                        <img src={Github} className="social" alt="logo de Github" />
+                        <a href="https://www.linkedin.com/in/mathieu-cocu-b159625b/" target="_blank">
+                            <img src={Linkedin} className="social" alt="logo de LinkedIn" />
+                        </a>
+                        <a href="https://github.com/mathc28" target="_blank">
+                            <img src={Github} className="social" alt="logo de Github" />
+                        </a> 
                     </div>
                 </div>
                 <p className='copysmall'> Copyright 2024 &copy; {t('footerright')}</p>

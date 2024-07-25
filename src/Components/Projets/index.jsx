@@ -16,12 +16,13 @@ import Logojs from "../../assets/logo-techno/logo-js2.png";
 import Logoreact from "../../assets/logo-techno/logo-react2.png";
 import Logoblanc from "../../assets/logo-techno/fond-transparent.png";
 
+import { useTranslation } from 'react-i18next';
+
 
 const cards = [
   {
     name: "Riding Cities",
-    description: "Mise à jour de la page Internet de Riding Cities, une association sportive qui promeut le skate en région.",
-    more: "Learn More",
+    description: 'projrc',
     photoproj: Photo1,
     techno1: Logohtml,
     techno2: Logocss,
@@ -30,8 +31,7 @@ const cards = [
   },
   {
     name: "Booki",
-    description: "Intégration de la nouvelle interface du site web de Booki.",
-    more: "Learn More",
+    description: 'projbooki',
     photoproj: Photo2,
     techno1: Logohtml,
     techno2: Logocss,
@@ -40,8 +40,7 @@ const cards = [
   },
   {
     name: "OhMyFood Paris",
-    description: "Développement d’un site “mobile first” qui répertorie les menus de restaurants gastronomiques.",
-    more: "Learn More",
+    description: 'projohmyfood',
     photoproj: Photo3,
     techno1: Logohtml,
     techno2: Logocss,
@@ -50,8 +49,7 @@ const cards = [
   },
   {
     name: "Print it",
-    description: "Dynamiser le site Internet statique d’une petite imprimerie familiale nommée Print it avec l’utilisation de Javascript",
-    more: "Learn More",
+    description: 'projprintit',
     photoproj: Photo4,
     techno1: Logojs,
     techno2: Logocss,
@@ -60,8 +58,7 @@ const cards = [
   },
   {
     name: "Portfolio Architecte",
-    description: "Développez front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur.",
-    more: "Learn More",
+    description: 'projportfolioarchitecte',
     photoproj: Photo5,
     techno1: Logojs,
     techno2: Logocss,
@@ -70,8 +67,7 @@ const cards = [
   },
   {
     name: "Qwenta",
-    description: "Qwenta souhaite faire développer un site permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement, en quelques clics. ",
-    more: "Learn More",
+    description: 'projqwenta',
     photoproj: Photo6,
     techno1: Logoblanc,
     techno2: Logoblanc,
@@ -80,8 +76,7 @@ const cards = [
     
   },{
     name: "Argent Bank",
-    description: "Développement front-end d’une application bancaire en utilisant React et Redux pour créer une expérience utilisateur dynamique et réactive.",
-    more: "Learn More",
+    description: 'projargbank',
     photoproj: Photo7,
     techno1: Logoreact,
     techno2: Logocss,
@@ -90,8 +85,7 @@ const cards = [
   },
   {
     name: "Kasa",
-    description: "Refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. ",
-    more: "Learn More",
+    description: 'projkasa',
     photoproj: Photo8,
     techno1: Logoreact,
     techno2: Logocss,
@@ -100,8 +94,8 @@ const cards = [
   },
   {
     name: "Mon Portfolio ",
+    description: 'projportfolio',
     description: "Création de mon propre portfolio",
-    more: "Learn More",
     photoproj: Photo4,
     techno1: Logoreact,
     techno2: Logocss,
@@ -111,6 +105,8 @@ const cards = [
 ];
 
 const Card1 = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="page card-1-page"> 
       <div className="cards">
@@ -121,24 +117,24 @@ const Card1 = () => {
               <div className="front">
                 <img src={card.photoproj} alt="photo du projet 1" className="photo-projet" />
                 <h3 className="card-title">{card.name}</h3>
-                <h4>{card.more}</h4>
+                <h4 className="card-subtitle">{t('ensavplus')}</h4>
               </div>
               <div className="back">
                 <header>
                   <h2>{card.name}</h2>
-                  <span className="material-symbols-outlined"> close </span>
+                  <span className="material-symbols-outlined"> {t('projetfermer')} </span>
                 </header>
-                <p className="card-description">{card.description}</p>
+                <p className="card-description">{t(card.description)}</p>
                 <div className="techno-card">
-                  <p>Technologies utilisées :</p>
+                  <p> {t('projettechnos')}</p>
                   <div className="technos-projet">
                     <img src={card.techno1} alt="photo du projet 1" className="techno-projet" />
                     <img src={card.techno2} alt="photo du projet 1" className="techno-projet" />
                   </div>
                 </div>
                 <div className="link-website">
-                  <a href={card.link1} target=" _blank">Voir le code</a>
-                  <a href={card.link2} target=" _blank">Voir le site</a>
+                  <a href={card.link1} target="_blank"> {t('projetliencode')}</a>
+                  <a href={card.link2} target="_blank"> {t('projetliensite')}</a>
                 </div>
               </div>
             </div>
