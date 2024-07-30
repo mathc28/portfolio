@@ -9,7 +9,7 @@ import Accueil from "../Pages/accueil";
  */
 function Router (){
     return <Routes>
-        <Route path="/" element={<Accueil />} />
+        <Route path="/" element={<Accueil/>} />
     </Routes>
 }
 
