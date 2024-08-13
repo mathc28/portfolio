@@ -35,7 +35,7 @@
   padding: 0;
 }
 
-#li {
+li {
   text-decoration: none;
   list-style-type: none;
   color: white;
@@ -48,7 +48,7 @@
   padding-right: 10px;
 }
 
-#li:hover {
+li:hover {
   box-shadow: inset 150px 0 0 0 #fe792f;
   color: white;
   border-radius: 5px;

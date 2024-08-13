@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {Link} from 'react-scroll';
 import logo from "../../assets/logo-perso/logo mc gris .png";
 import hamburger from "../../assets/menu-hamburger/bars-solid.svg"
 import { useTranslation } from 'react-i18next';
@@ -21,19 +22,19 @@ const Header = () => {
             <div className={`navigation ${menuOpen ? 'open' : ''}`}>
                 <ul className='nav'> 
                     <li>
-                        <a href="#presentation" className='liens' id='li'>{t('description')}</a>
+                        <Link to="presentation" spy={true} smooth={true} duration={500} className='liens'>{t('description')}</Link>
                     </li>
                     <li>
-                        <a href="#competences" className='liens' id='li'>{t('competences')}</a>
+                        <Link to="competences" spy={true} smooth={true} duration={500} offset={-20} className='liens'>{t('competences')}</Link>
                     </li>
                     <li>
-                        <a href="#projets" className='liens' id='li'> {t('projets')} </a>
+                        <Link to="projets" spy={true} smooth={true} duration={500} offset={-20} className='liens'>{t('projets')}</Link>
                     </li>
                     <li>
-                        <a href="#temoignages" className='liens' id='li'> {t('temoignages')} </a>
+                        <Link to="temoignages" spy={true} smooth={true} duration={500} offset={-20} className='liens'>{t('temoignages')} </Link>
                     </li>
                     <li>
-                        <a href="#contact" className='liens' id='li'> {t('contact')} </a>
+                        <Link to="contact" spy={true} smooth={true} duration={500} offset={-20} className='liens'>{t('contact')} </Link>
                     </li>
                 </ul>
                 <button
