@@ -56,6 +56,8 @@ i18n
             projargbank: 'Développement front-end d’une application bancaire en utilisant React et Redux pour créer une expérience utilisateur dynamique et réactive.',
             projkasa:'Refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end.',
             projportfolio:'Création de mon propre portfolio',
+            projseo:"Amélioration du référencement d'un portfolio d'une photographe bordelaise",
+            projdebug:"Débug d'un site web d'agence événementielle et rédaction d'un cahier de recette",
 
             temoigtitre:"TÉMOIGNAGES",
             txttem:"Cette section n'est pas encore prête. D'autres témoignages seront bientôt ajoutés",
@@ -68,10 +70,6 @@ i18n
             footerbtn:'Contactez-moi',
             footerright:'.Tous droits réservés.',
             footerfollow: 'Suivez-moi !',
-
-
-
-
         }
       },
       en: {
@@ -113,6 +111,8 @@ i18n
             projargbank: 'Front-end development of a banking application using React and Redux to create a dynamic and responsive user experience.',
             projkasa:'Complete overhaul to transition to a full JavaScript stack with Node.js on the back end and React on the front end.',
             projportfolio:'Creation of my own portfolio.',
+            projseo:"Improving the SEO of a Bordeaux photographer’s portfolio",
+            projdebug:"Debugging an event agency website",
 
             temoigtitre:"TESTIMONIALS",
             txttem:'This section is not ready yet. More tesimonials will be add soon',

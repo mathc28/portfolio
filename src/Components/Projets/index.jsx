@@ -7,7 +7,9 @@ import Photo5 from "../../assets/photo-projets/projet-5.png";
 import Photo6 from "../../assets/photo-projets/projet-6.png";
 import Photo7 from "../../assets/photo-projets/projet-7.png";
 import Photo8 from "../../assets/photo-projets/projet-8.png"; 
- 
+import Photo9 from "../../assets/photo-projets/projet-9.png"; 
+import Photo10 from "../../assets/photo-projets/projet-10.png"; 
+
 
 
 import Logohtml from "../../assets/logo-techno/logo-html2.png"; 
@@ -80,8 +82,8 @@ const cards = [
     photoproj: Photo7,
     techno1: Logoreact,
     techno2: Logocss,
-    link1: "https://github.com/mathc28/projet10-argentbank",
-    link2: "https://github.com/mathc28/projet10-argentbank",
+    link1: "https://github.com/mathc28/ArgentBank",
+    link2: "https://mc-argent-bank.vercel.app/",
   },
   {
     name: "Kasa",
@@ -93,14 +95,31 @@ const cards = [
     Link2:"https://mc-kasa.vercel.app"
   },
   {
-    name: "Mon Portfolio ",
+    name: "Mon Portfolio",
     description: 'projportfolio',
-    description: "Création de mon propre portfolio",
     photoproj: Photo4,
     techno1: Logoreact,
     techno2: Logocss,
     link1: "https://github.com/mathc28/portfolio",
     link2: "https://mathcoc.vercel.app/"
+  },
+  {
+    name: "SEO Portfolio ",
+    description: 'projseo',
+    photoproj: Photo9,
+    techno1: Logoblanc,
+    techno2: Logoblanc,
+    link1: "https://github.com/mathc28/NinaCarducci",
+    link2: "https://mc-ninacarducci.vercel.app/"
+  },
+  {
+    name: "Debug site web ",
+    description: 'projdebug',
+    photoproj: Photo10,
+    techno1: Logoblanc,
+    techno2: Logoblanc,
+    link1: "https://github.com/mathc28/724events-p10",
+    link2: "",
   },
 ];
 
