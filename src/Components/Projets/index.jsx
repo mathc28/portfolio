@@ -119,7 +119,7 @@ const cards = [
     techno1: Logoblanc,
     techno2: Logoblanc,
     link1: "https://github.com/mathc28/724events-p10",
-    link2: "",
+    link2: "https://mc-724events.vercel.app",
   },
 ];
 
