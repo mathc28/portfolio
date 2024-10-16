@@ -86,15 +86,6 @@ const cards = [
     link2: "https://mc-argent-bank.vercel.app/",
   },
   {
-    name: "Kasa",
-    description: 'projkasa',
-    photoproj: Photo8,
-    techno1: Logoreact,
-    techno2: Logocss,
-    Link1: "https://github.com/mathc28/Kasa",
-    Link2:"https://mc-kasa.vercel.app"
-  },
-  {
     name: "Mon Portfolio",
     description: 'projportfolio',
     photoproj: Photo4,
