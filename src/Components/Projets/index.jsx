@@ -1,14 +1,14 @@
 import "./style.scss";
-import Photo1 from "../../assets/photo-projets/projet-1.png";
-import Photo2 from "../../assets/photo-projets/projet-2.png";
-import Photo3 from "../../assets/photo-projets/projet-3.png";
-import Photo4 from "../../assets/photo-projets/projet-4.png";
-import Photo5 from "../../assets/photo-projets/projet-5.png";
-import Photo6 from "../../assets/photo-projets/projet-6.png";
-import Photo7 from "../../assets/photo-projets/projet-7.png";
-import Photo8 from "../../assets/photo-projets/projet-8.png"; 
-import Photo9 from "../../assets/photo-projets/projet-9.png"; 
-import Photo10 from "../../assets/photo-projets/projet-10.png"; 
+import Photo1 from "../../assets/photo-projets/projet-1.webp";
+import Photo2 from "../../assets/photo-projets/projet-2.webp";
+import Photo3 from "../../assets/photo-projets/projet-3.webp";
+import Photo4 from "../../assets/photo-projets/projet-4.webp";
+import Photo5 from "../../assets/photo-projets/projet-5.webp";
+import Photo6 from "../../assets/photo-projets/projet-6.webp";
+import Photo7 from "../../assets/photo-projets/projet-7.webp";
+import Photo8 from "../../assets/photo-projets/projet-8.webp"; 
+import Photo9 from "../../assets/photo-projets/projet-9.webp"; 
+import Photo10 from "../../assets/photo-projets/projet-10.webp"; 
 
 
 
