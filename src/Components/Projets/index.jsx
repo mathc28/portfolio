@@ -15,7 +15,7 @@ import Photo10 from "../../assets/photo-projets/projet-10.png";
 import Logohtml from "../../assets/logo-techno/logo-html2.png"; 
 import Logocss from "../../assets/logo-techno/logo-css2.png"; 
 import Logojs from "../../assets/logo-techno/logo-js2.png";
-import Logoreact from "../../assets/logo-techno/logo-react2.png";
+import Logoreact from "../../assets/logo-techno/logo-react3.png";
 import Logoblanc from "../../assets/logo-techno/fond-transparent.png";
 
 import { useTranslation } from 'react-i18next';
