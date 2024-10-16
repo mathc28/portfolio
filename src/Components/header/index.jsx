@@ -25,16 +25,16 @@ const Header = () => {
                         <a href='presentation' spy={true} smooth={true} duration={500} className='liens'>{t('description')}</a>
                     </li>
                     <li>
-                        <Link to="competences" spy={true} smooth={true} duration={500} offset={-20} className='liens'>{t('competences')}</Link>
+                        <a href='competences' spy={true} smooth={true} duration={500} offset={-20} className='liens'>{t('competences')}</a>
                     </li>
                     <li>
-                        <Link to="projets" spy={true} smooth={true} duration={500} offset={-20} className='liens'>{t('projets')}</Link>
+                        <a href='projets' spy={true} smooth={true} duration={500} offset={-20} className='liens'>{t('projets')}</a>
                     </li>
                     <li>
-                        <Link to="temoignages" spy={true} smooth={true} duration={500} offset={-20} className='liens'>{t('temoignages')} </Link>
+                        <a href='temoignages' spy={true} smooth={true} duration={500} offset={-20} className='liens'>{t('temoignages')} </a>
                     </li>
                     <li>
-                        <Link to="contact" spy={true} smooth={true} duration={500} offset={-20} className='liens'>{t('contact')} </Link>
+                        <a href='contact' spy={true} smooth={true} duration={500} offset={-20} className='liens'>{t('contact')} </a>
                     </li>
                 </ul>
                 <button
