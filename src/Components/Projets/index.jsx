@@ -152,8 +152,8 @@ const Card1 = () => {
                   </div>
                 </div>
                 <div className="link-website">
-                  <a href={card.link1} target="_blank"> {t('projetliencode')}</a>
-                  <a href={card.link2} target="_blank"> {t('projetliensite')}</a>
+                  <a href={card.link1}> {t('projetliencode')}</a>
+                  <a href={card.link2}> {t('projetliensite')}</a>
                 </div>
               </div>
             </div>
