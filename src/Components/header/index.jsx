@@ -22,7 +22,7 @@ const Header = () => {
             <div className={`navigation ${menuOpen ? 'open' : ''}`}>
                 <ul className='nav'> 
                     <li>
-                        <Link to="presentation" spy={true} smooth={true} duration={500} className='liens'>{t('description')}</Link>
+                        <a href='presentation' spy={true} smooth={true} duration={500} className='liens'>{t('description')}</a>
                     </li>
                     <li>
                         <Link to="competences" spy={true} smooth={true} duration={500} offset={-20} className='liens'>{t('competences')}</Link>
