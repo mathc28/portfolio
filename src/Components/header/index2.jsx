@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import {Link} from 'react-scroll';
+import { Link } from 'react-scroll';
 import logo from "../../assets/logo-perso/logo mc gris .png";
-import hamburger from "../../assets/menu-hamburger/bars-solid.svg"
+import hamburger from "../../assets/menu-hamburger/bars-solid.svg";
 import { useTranslation } from 'react-i18next';
 import "./style.scss";
 
@@ -17,24 +17,34 @@ const Header = () => {
         <div className={`header ${menuOpen ? 'open' : ''}`}>
             <img src={logo} className="logo" alt="logo de Mathieu C" />
             <button className="menu-toggle" onClick={handleMenuToggle}>
-                <img src={hamburger} className="hamburger" alt="logo de Mathieu C" />
+                <img src={hamburger} className="hamburger" alt="menu toggle" />
             </button>
             <div className={`navigation ${menuOpen ? 'open' : ''}`}>
                 <ul className='nav'> 
                     <li>
-                        <a href="#presentation" spy={true} smooth={true} duration={500} className='liens'>{t('description')}</a>
+                        <Link to="presentation" spy={true} smooth={true} duration={500} className='liens'>
+                            {t('description')}
+                        </Link>
                     </li>
                     <li>
-                        <a href="#competences" spy={true} smooth={true} duration={500} offset={-20} className='liens'>{t('competences')}</a>
+                        <Link to="competences" spy={true} smooth={true} duration={500} offset={-20} className='liens'>
+                            {t('competences')}
+                        </Link>
                     </li>
                     <li>
-                        <a href="#projets" spy={true} smooth={true} duration={500} offset={-50} className='liens'>{t('projets')}</a>
+                        <Link to="projets" spy={true} smooth={true} duration={500} offset={-50} className='liens'>
+                            {t('projets')}
+                        </Link>
                     </li>
                     <li>
-                        <a href="#temoignages" spy={true} smooth={true} duration={500} offset={-20} className='liens'>{t('temoignages')} </a>
+                        <Link to="temoignages" spy={true} smooth={true} duration={500} offset={-20} className='liens'>
+                            {t('temoignages')}
+                        </Link>
                     </li>
                     <li>
-                        <a href="#contact" spy={true} smooth={true} duration={500} offset={-20} className='liens'>{t('contact')} </a>
+                        <Link to="contact" spy={true} smooth={true} duration={500} offset={-20} className='liens'>
+                            {t('contact')}
+                        </Link>
                     </li>
                 </ul>
                 <button

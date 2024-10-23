@@ -119,8 +119,8 @@ const Card1 = () => {
   return (
     <section className="page card-1-page"> 
       <div className="cards">
-        {cards.map((card) => (
-          <label id={card.name}>
+        {cards.map((card, index) => (
+          <label id={card.name} key={index}>
             <input type="checkbox" />
             <div className="card">
               <div className="front">
