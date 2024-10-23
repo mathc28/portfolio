@@ -23,60 +23,30 @@ const Header = () => {
                 <ul className='nav'> 
                     <li>
                         <Link
-                            to="presentation"
-                            spy={true}
-                            smooth={true}
-                            duration={500}
-                            className='liens'
-                        >
+                            to="presentation" href="#presentation" spy={true} smooth={true} duration={500} className='liens'>
                             {t('description')}
                         </Link>
                     </li>
                     <li>
                         <Link
-                            to="competences"
-                            spy={true}
-                            smooth={true}
-                            duration={500}
-                            offset={-20}
-                            className='liens'
-                        >
+                            to="competences" href="#competences" spy={true} smooth={true} duration={500} offset={-20} className='liens'>
                             {t('competences')}
                         </Link>
                     </li>
                     <li>
                         <Link
-                            to="projets"
-                            spy={true}
-                            smooth={true}
-                            duration={500}
-                            offset={-50}
-                            className='liens'
-                        >
+                            to="projets" href="#projets" spy={true} smooth={true} duration={500} offset={-50} className='liens' >
                             {t('projets')}
                         </Link>
                     </li>
                     <li>
                         <Link
-                            to="temoignages"
-                            spy={true}
-                            smooth={true}
-                            duration={500}
-                            offset={-20}
-                            className='liens'
-                        >
+                            to="temoignages" href="#temoignages" spy={true} smooth={true} duration={500} offset={-20} className='liens'>
                             {t('temoignages')}
                         </Link>
                     </li>
                     <li>
-                        <Link
-                            to="contact"
-                            spy={true}
-                            smooth={true}
-                            duration={500}
-                            offset={-20}
-                            className='liens'
-                        >
+                        <Link to="contact" href="#contact" spy={true} smooth={true} duration={500} offset={-20} className='liens'>
                             {t('contact')}
                         </Link>
                     </li>
