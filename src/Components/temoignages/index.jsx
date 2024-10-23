@@ -13,9 +13,9 @@ const Index = () => {
         <div className='container-témoignages' id="temoignages">
             <h2 className='section-comp-title'>{t('temoigtitre')}</h2>
             <div className="animation">
-                <img src={Minigear} alt=""  className="one spin-one"/>
-                <img src={Biggear} alt=""  className="two spin-two"/>
-                <img src={Minigear} alt=""  className="three spin-one"/>
+                <img src={Minigear} alt="ecrou gris de gauche"  className="one spin-one"/>
+                <img src={Biggear} alt="ecrou jaune"  className="two spin-two"/>
+                <img src={Minigear} alt="ecrou gris de droite"  className="three spin-one"/>
             </div>
             <p className="newlearn"> {t('txttem')}</p>
         </div>
