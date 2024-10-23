@@ -1,10 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import "./style.scss";
-
 import { useTranslation } from 'react-i18next';
-
-
 
 export const ContactUs = () => {
   const { t } = useTranslation();
@@ -22,7 +19,7 @@ export const ContactUs = () => {
           alert('merci pour votre message ! / thank you for your message');
         },
         (error) => {
-          alert('Une erreur est survenue, veuillez reessayer / An error has occurred. Please try again', error.text);
+          alert('Une erreur est survenue, veuillez réessayer / An error has occurred. Please try again', error.text);
         },
       );
   };
@@ -34,22 +31,21 @@ export const ContactUs = () => {
             <form ref={form} onSubmit={sendEmail} className='form-contact'>
                 <p className='txt-contact'>  {t('contacttxt')}</p>
                 <div className='form-nom'> 
-                    <label className='form-label'> {t('contactname')} </label>
+                    <label htmlFor='contactname' className='form-label'> {t('contactname')} </label>
                     <input type="text" name="user_name" className='form-input' id='contactname' />
                 </div>
                 <div className='form-mail'>
-                    <label className='form-label'>Email</label>
+                    <label htmlFor='contactmail' className='form-label'>Email</label>
                     <input type="email" name="user_email" className='form-input' id='contactmail'/>
                 </div>    
                 <div className='form-msg'>
-                    <label className='form-label'>Message</label>
+                    <label htmlFor='contactmessage' className='form-label'>Message</label>
                     <textarea name="message" className='form-txtarea' id='contactmessage'/>
                 </div>
                 <input type="submit" value={t('contactbtn')}  className='form-btn'/>
             </form>
         </div>
     </div>
-
   );
 };
 
