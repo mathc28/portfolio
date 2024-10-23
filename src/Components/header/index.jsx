@@ -22,19 +22,19 @@ const Header = () => {
             <div className={`navigation ${menuOpen ? 'open' : ''}`}>
                 <ul className='nav'> 
                     <li>
-                        <a href='presentation' spy={true} smooth={true} duration={500} className='liens'>{t('description')}</a>
+                        <a href="#presentation" spy={true} smooth={true} duration={500} className='liens'>{t('description')}</a>
                     </li>
                     <li>
-                        <a href='competences' spy={true} smooth={true} duration={500} offset={-20} className='liens'>{t('competences')}</a>
+                        <a href="#competences" spy={true} smooth={true} duration={500} offset={-20} className='liens'>{t('competences')}</a>
                     </li>
                     <li>
-                        <a href='projets' spy={true} smooth={true} duration={500} offset={-20} className='liens'>{t('projets')}</a>
+                        <a href="#projets" spy={true} smooth={true} duration={500} offset={-20} className='liens'>{t('projets')}</a>
                     </li>
                     <li>
-                        <a href='temoignages' spy={true} smooth={true} duration={500} offset={-20} className='liens'>{t('temoignages')} </a>
+                        <a href="#temoignages" spy={true} smooth={true} duration={500} offset={-20} className='liens'>{t('temoignages')} </a>
                     </li>
                     <li>
-                        <a href='contact' spy={true} smooth={true} duration={500} offset={-20} className='liens'>{t('contact')} </a>
+                        <a href="#contact" spy={true} smooth={true} duration={500} offset={-20} className='liens'>{t('contact')} </a>
                     </li>
                 </ul>
                 <button
