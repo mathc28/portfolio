@@ -6,7 +6,6 @@ import Photo4 from "../../assets/photo-projets/projet-4.webp";
 import Photo5 from "../../assets/photo-projets/projet-5.webp";
 import Photo6 from "../../assets/photo-projets/projet-6.webp";
 import Photo7 from "../../assets/photo-projets/projet-7.webp";
-import Photo8 from "../../assets/photo-projets/projet-8.webp"; 
 import Photo9 from "../../assets/photo-projets/projet-9.webp"; 
 import Photo10 from "../../assets/photo-projets/projet-10.webp"; 
 
