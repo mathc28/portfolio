@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 import logo from "../../assets/logo-perso/logo mc gris .png";
 import hamburger from "../../assets/menu-hamburger/bars-solid.svg";
@@ -8,13 +8,23 @@ import "./style.scss";
 const Header = () => {
     const { t, i18n } = useTranslation();
     const [menuOpen, setMenuOpen] = useState(false);
+    const [isTransparent, setIsTransparent] = useState(false);
 
     const handleMenuToggle = () => {
         setMenuOpen(!menuOpen);
     };
 
+    useEffect(() => {
+        const handleScroll = () => {
+            setIsTransparent(window.scrollY > 50);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
     return (
-        <div className={`header ${menuOpen ? 'open' : ''}`}>
+        <div className={`header ${isTransparent ? 'transparent' : ''} ${menuOpen ? 'open' : ''}`}>
             <img src={logo} className="logo" alt="logo de Mathieu C" />
             <button className="menu-toggle" onClick={handleMenuToggle}>
                 <img src={hamburger} className="hamburger" alt="menu toggle" />
