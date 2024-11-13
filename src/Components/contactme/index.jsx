@@ -42,7 +42,7 @@ export const ContactUs = () => {
                     <label htmlFor='contactmessage' className='form-label'>Message</label>
                     <textarea name="message" className='form-txtarea' id='contactmessage' required />
                 </div>
-                <input type="submit" value={t('contactbtn')}  className='form-btn'/>
+                <input type="submit" value={t('contactbtn')} className='form-btn'/>
             </form>
         </div>
     </div>
