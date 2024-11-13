@@ -19,12 +19,6 @@ const Index = () => {
                     Lyon, France
                 </div>
                 <div className="footer__addr">
-                    <div className='contact' >
-                        <h2>Contact</h2>
-                        <address>
-                            <a className="footer__btn" href="mailto:example@gmail.com"> {t('footerbtn')} </a>
-                        </address>
-                    </div>
                     <p className='copylarge'> Copyright 2024 &copy; {t('footerright')}</p>
                 </div>
                 <div className='follow'>
