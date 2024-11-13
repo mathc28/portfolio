@@ -11,7 +11,7 @@ export const ContactUs = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_g1c91pb', 'template_7la894t', form.current, {
+      .sendForm('service_g1c91pb', 'template_8r174vg', form.current, {
         publicKey: 'uJvYxBHUCH9pBhh6W',
       })
       .then(
