@@ -32,15 +32,15 @@ export const ContactUs = () => {
                 <p className='txt-contact'>  {t('contacttxt')}</p>
                 <div className='form-nom'> 
                     <label htmlFor='contactname' className='form-label'> {t('contactname')} </label>
-                    <input type="text" name="user_name" className='form-input' id='contactname' />
+                    <input type="text" name="user_name" className='form-input' id='contactname' required />
                 </div>
                 <div className='form-mail'>
                     <label htmlFor='contactmail' className='form-label'>Email</label>
-                    <input type="email" name="user_email" className='form-input' id='contactmail'/>
+                    <input type="email" name="user_email" className='form-input' id='contactmail' required />
                 </div>    
                 <div className='form-msg'>
                     <label htmlFor='contactmessage' className='form-label'>Message</label>
-                    <textarea name="message" className='form-txtarea' id='contactmessage'/>
+                    <textarea name="message" className='form-txtarea' id='contactmessage' required />
                 </div>
                 <input type="submit" value={t('contactbtn')}  className='form-btn'/>
             </form>
