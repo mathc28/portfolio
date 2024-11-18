@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./style.scss";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import Photo1 from "../../assets/photo-projets/projet-1.webp";
 import Photo2 from "../../assets/photo-projets/projet-2.webp";
@@ -117,6 +119,14 @@ const cards = [
 const Card1 = () => {
   const { t } = useTranslation();
 
+  // Initialisation d'AOS
+  useEffect(() => {
+    AOS.init({
+        duration: 1000, // Durée de l'animation
+        once: false, 
+    });
+  }, []);
+
   // State pour gérer le nombre de projets affichés
   const [showAllProjects, setShowAllProjects] = useState(false);
 
@@ -127,7 +137,7 @@ const Card1 = () => {
   const displayedCards = showAllProjects ? cards : cards.slice(0, initialProjectCount);
 
   return (
-    <section className="page card-1-page">
+    <section className="page card-1-page" data-aos="fade-up">
       <div className="cards">
         {displayedCards.map((card, index) => (
           <label id={card.name} key={index}>

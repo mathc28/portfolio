@@ -9,6 +9,7 @@
   width: 100%;
   position: sticky;
   top: 0;
+  z-index: 1000; /* Priorité sur les autres éléments */
   box-shadow: 0 1px 1px -1px white; /* Ajoute une ombre pour la barre noire */
   transition: background-color 0.3s ease-in-out; /* Transition pour la transparence */
 }
@@ -24,10 +25,20 @@
   margin-left: 20px;
 }
 
-.hamburger{
+.hamburger {
   height: 70px;
   width: 70px;
   margin-left: 20px;
+}
+
+/* Ajout des animations pour AOS */
+[data-aos] {
+  opacity: 0; /* Masquer les éléments avant l'animation */
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+[data-aos].aos-animate {
+  opacity: 1; /* Affiche l'élément après l'animation */
 }
 
 .navigation {
@@ -53,7 +64,7 @@
   font-weight: 600;
   padding: 5px;
   box-shadow: inset 0 0 0 0 #0e1451;
-  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   padding-right: 10px;
 }
 
@@ -84,7 +95,6 @@ ul {
 }
 
 .switchlanguage:hover {
-  padding: 10px 25px;
   transform: translateY(-5px);
   background-color: white;
   color: #0e1451;
@@ -103,6 +113,7 @@ ul {
   margin: 5px;
 }
 
+/* Responsive styles */
 @media screen and (max-width: 767px) {
   .menu-toggle {
     display: block; /* Afficher le bouton hamburger lorsque la largeur de l'écran est inférieure à 767px */
@@ -147,18 +158,18 @@ ul {
     width: 120px;
   }
 
-  .header{
+  .header {
     flex-direction: column;
   }
 
-  .logo{
-    margin:0;
+  .logo {
+    margin: 0;
     width: 100px;
     height: 100px;
     padding-bottom: 10px;
   }
 
-  .hamburger{
+  .hamburger {
     width: 30px;
     height: 30px;
   }

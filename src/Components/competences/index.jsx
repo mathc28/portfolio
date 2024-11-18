@@ -1,5 +1,8 @@
-import React from 'react';
+import React, { useEffect } from "react";
 import "./style.scss";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import Html from "../../assets/logo-techno/logo-html2.svg";
 import Css from "../../assets/logo-techno/logo-css2.svg";
 import Javascript from "../../assets/logo-techno/logo-js2.svg" 
@@ -19,8 +22,17 @@ import { useTranslation } from 'react-i18next';
 
 const Index = () => {
     const { t } = useTranslation();
+
+    // Initialisation d'AOS
+    useEffect(() => {
+        AOS.init({
+            duration: 1000, // Durée de l'animation
+            once: true, // Animation jouée une seule fois
+        });
+    }, []);
+
     return (
-        <div id="competences">
+        <div id="competences" data-aos="fade-up">
             <h2 className='section-comp-title'>{t('comptitre')}</h2>
             <div className='container-compétences'>
                 <div className='web-skills'>

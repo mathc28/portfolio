@@ -1,10 +1,18 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import "./style.scss";
 import { useTranslation } from 'react-i18next';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export const ContactUs = () => {
   const { t } = useTranslation();
+  useEffect(() => {
+    AOS.init({
+        duration: 1000, // Durée de l'animation
+        once: false, 
+    });
+  }, []);
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -25,7 +33,7 @@ export const ContactUs = () => {
   };
 
   return (
-    <div className='contactme' id="contact">
+    <div className='contactme' id="contact" data-aos="fade-up">
         <h2 className='section-comp-title'> {t('contacttitre')}</h2>
         <div>
             <form ref={form} onSubmit={sendEmail} className='form-contact'>
