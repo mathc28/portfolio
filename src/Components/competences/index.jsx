@@ -64,11 +64,11 @@ const Index = () => {
                                 <img src={Javascript} alt="logo js" className='logo-techno' />
                                 <div className='techno-info'>
                                     <h3 className='skill-title'> Javascript </h3>
-                                    <p className='level'>  {t('lvldeb')} </p>
+                                    <p className='level'>  {t('lvlinter')} </p>
                                     <div className='stars'>
                                         <img src={Fullstar} alt="une étoile pleine" className='star'/>
                                         <img src={Fullstar} alt="une étoile pleine" className='star'/>
-                                        <img src={Emptystar} alt="une étoile vide" className='star'/>
+                                        <img src={Fullstar} alt="une étoile pleine" className='star'/>
                                         <img src={Emptystar} alt="une étoile vide" className='star'/>
                                         <img src={Emptystar} alt="une étoile vide" className='star'/>
                                     </div>
@@ -79,11 +79,11 @@ const Index = () => {
                                 <img src={Reactl} alt="loho react" className='logo-techno' />
                                 <div className='techno-info'>
                                     <h3 className='skill-title'> React </h3>
-                                    <p className='level'> {t('lvldeb')} </p>
+                                    <p className='level'> {t('lvlinter')} </p>
                                     <div className='stars'>
                                         <img src={Fullstar} alt="une étoile pleine" className='star'/>
                                         <img src={Fullstar} alt="une étoile pleine" className='star'/>
-                                        <img src={Emptystar} alt="une étoile vide" className='star'/>
+                                        <img src={Fullstar} alt="une étoile pleine" className='star'/>
                                         <img src={Emptystar} alt="une étoile vide" className='star'/>
                                         <img src={Emptystar} alt="une étoile vide" className='star'/>
                                     </div>
@@ -116,11 +116,11 @@ const Index = () => {
                             <img src={Todo} alt="logo plannification" className='logo-techno' />
                                 <div className='techno-info'>
                                     <h3 className='skill-title'> Plannification </h3>
-                                    <p className='level'> {t('lvldeb')}</p>
+                                    <p className='level'> {t('lvlinter')}</p>
                                     <div className='stars'>
                                         <img src={Fullstar} alt="une étoile pleine" className='star'/>
                                         <img src={Fullstar} alt="une étoile pleine" className='star'/>
-                                        <img src={Emptystar} alt="une étoile vide" className='star'/>
+                                        <img src={Fullstar} alt="une étoile pleine" className='star'/>
                                         <img src={Emptystar} alt="une étoile vide" className='star'/>
                                         <img src={Emptystar} alt="une étoile vide" className='star'/>
                                     </div>

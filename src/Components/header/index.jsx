@@ -58,16 +58,16 @@ const Header = () => {
                     </li>
                 </ul>
                 <button
-                className='switchlanguage'
-                onClick={() => {
-                    if (i18n.resolvedLanguage === 'fr') {
-                        i18n.changeLanguage('en');
-                    } else {
-                        i18n.changeLanguage('fr');
-                    }
-                }}>
-                {i18n.resolvedLanguage === 'fr' ? '🇬🇧 / 🇫🇷' : '🇫🇷 / 🇬🇧'}
-            </button>
+                    className='switchlanguage'
+                    onClick={() => {
+                        if (i18n.resolvedLanguage === 'fr') {
+                            i18n.changeLanguage('en');
+                        } else {
+                            i18n.changeLanguage('fr');
+                        }
+                    }}>
+                    {i18n.resolvedLanguage === 'fr' ? '🇬🇧 / 🇫🇷' : '🇫🇷 / 🇬🇧'}
+                </button>
             </div>          
         </div>
     );

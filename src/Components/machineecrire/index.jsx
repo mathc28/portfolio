@@ -12,18 +12,14 @@ const Type = () => {
             <div className='typeEFfect'>
                 <Typewriter
                     options={{
-                        strings: ["front-end web developper"],
+                        strings: ["front-end developper"],
                         autoStart: true,
                         loop: true, 
                         delay: 70, 
                         deleteSpeed:20,
                     }}
-                
-                
                 />
-
             </div>
-            
         </div>
     );
 };

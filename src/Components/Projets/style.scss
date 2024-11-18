@@ -187,3 +187,36 @@
     padding: 0px 50px;
   }
 }
+
+
+
+
+.show-more-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+    
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: #242f42;
+  padding: 10px 42px;
+  border: solid white 2px;
+  box-shadow: none;
+  border-radius: 25px;
+    
+  transition: 1000ms;
+  transform: translateY(0);
+       
+  cursor: pointer;
+}
+
+.show-more-button:hover {
+  transition : 1000ms;
+  padding: 10px 40px;
+  transform : translateY(-0px);
+  background-color: white;
+  color: #242f42;
+  border: solid 2px #242f42;;
+}
