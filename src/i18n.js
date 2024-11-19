@@ -65,7 +65,7 @@ i18n
             txttem:"Cette section n'est pas encore prête. D'autres témoignages seront bientôt ajoutés",
 
             contacttitre:'CONTACTEZ-MOI !',
-            contacttxt:"Une Question ? N'hésitez pas à me contacter",
+            contacttxt:"Une question ? N'hésitez pas à me contacter",
             contactname:'Nom',
             contactbtn:'Envoyer',
 

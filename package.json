@@ -5,12 +5,16 @@
   "hompage": "https://mathc28.github.io/portfolio",
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^6.1.7",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
     "emailjs": "^4.0.3",
     "flowbite-react": "^0.8.0",
+    "gsap": "^3.12.5",
     "i18next": "^23.11.1",
     "i18next-browser-languagedetector": "^7.2.1",
     "react": "^18.2.0",
@@ -23,7 +27,9 @@
     "react-scripts": "5.0.1",
     "react-scroll": "^1.9.0",
     "sass": "^1.74.1",
+    "sweetalert2": "^11.14.5",
     "typewriter-effect": "^2.21.0",
+    "use-scramble": "^2.2.15",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

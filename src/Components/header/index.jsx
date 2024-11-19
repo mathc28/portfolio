@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
-import logo from "../../assets/logo-perso/logo mc gris .png";
+import logo from "../../assets/logo-perso/logo header MC 2.png";
 import hamburger from "../../assets/menu-hamburger/bars-solid.svg";
 import { useTranslation } from "react-i18next";
 import "./style.scss";
@@ -29,14 +29,15 @@ const Header = () => {
         menuOpen ? "open" : ""
       }`}
     >
-      {/* Logo avec animation fade-down */}
-      <img
-        src={logo}
-        className="logo"
-        alt="logo de Mathieu C"
-        data-aos="fade-down"
-        data-aos-duration="800"
-      />
+      <a href="">
+        <img
+          src={logo}
+          className="logo"
+          alt="logo de Mathieu C"
+          data-aos="fade-down"
+          data-aos-duration="800"
+        />
+      </a>
       <button className="menu-toggle" onClick={handleMenuToggle}>
         <img src={hamburger} className="hamburger" alt="menu toggle" />
       </button>

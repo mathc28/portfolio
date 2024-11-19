@@ -4,6 +4,10 @@ import "./style.scss";
 import { useTranslation } from 'react-i18next';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Swal from 'sweetalert2'
+
+
+
 
 export const ContactUs = () => {
   const { t } = useTranslation();
@@ -24,10 +28,18 @@ export const ContactUs = () => {
       })
       .then(
         () => {
-          alert('merci pour votre message ! / thank you for your message');
+          Swal.fire({
+            title: "Thank you for your message !",
+            text: "I'll come back to you asap",
+            icon: "success"
+          });
         },
         (error) => {
-          alert('Une erreur est survenue, veuillez réessayer / An error has occurred. Please try again', error.text);
+          Swal.fire({
+            title: "An error has occurred",
+            text: "Please try again",
+            icon: "error"
+          }, error.text);
         },
       );
   };

@@ -146,7 +146,7 @@ const Card1 = () => {
               <div className="front">
                 <img src={card.photoproj} alt={`photo du projet ${index + 1}`} className="photo-projet" />
                 <h3 className="card-title">{card.name}</h3>
-                <h4 className="card-subtitle">{t("ensavplus")}</h4>
+                <p className="card-subtitle">{t("ensavplus")}</p>
               </div>
               <div className="back">
                 <header>
