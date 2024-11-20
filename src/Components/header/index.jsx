@@ -16,7 +16,7 @@ const Header = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsTransparent(window.scrollY > 50);
+      setIsTransparent(window.scrollY > 125);
     };
 
     window.addEventListener("scroll", handleScroll);

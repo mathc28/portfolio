@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Photo from "../../assets/photo mc.jpeg";
 import { useTranslation } from "react-i18next";
-import Type from "../machineecrire";
+import Type from "../scrambletxt/";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./style.scss";
