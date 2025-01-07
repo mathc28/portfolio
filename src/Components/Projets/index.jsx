@@ -172,7 +172,7 @@ const Card1 = () => {
       </div>
       {/* Bouton "Afficher plus" ou "Afficher moins" */}
       {cards.length > initialProjectCount && (
-        <div>
+        <div className="btn">
           <button onClick={() => setShowAllProjects(!showAllProjects)} className="show-more-button">
             {showAllProjects ? t("affichezmoins") : t("affichezplus")}
           </button>

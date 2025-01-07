@@ -18,23 +18,26 @@
 .container-compétences{
     background-color: #242f42;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-content: center;
     justify-content: space-evenly;
     width: auto;
-    padding: 0px 150px;
+    padding: 0px 50px;
 }
 
 
 .web-skills{
     background-color: #404040;
-    padding: 30px 40px 40px 50px;
+    padding: 30px 50px 25px 50px;
     border-radius: 1.25rem;
     margin-bottom: 50px;
     color: white;
 
     display: flex;
     flex-direction: column;
+    align-items: center;
+    height: 500px; 
+    width: 231px;
 }
 
 .web-skills-title{
@@ -45,21 +48,21 @@
     color: white;
     padding-bottom: 1.2em;
     text-align: center;
+    text-decoration: underline;
 }
 
 .skills{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 .skill{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-
+    padding-bottom: 20px;
 }
 
 .skill:hover{
@@ -68,9 +71,10 @@
 
 .skills2{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
+    height: 500px;
 }
 
 .logo-techno{
@@ -85,21 +89,10 @@
     align-items: flex-start;
 }
 
-.techno-info2{
-    padding-right: 20px;
-}
-
 .skill-title{
     margin-bottom: 5px;
     text-align: left;
     margin-top: 0px;
-}
-
-.skills-duo{
-    display: flex;
-    width: 50%;
-    flex-direction: row;
-    justify-content: space-evenly;
 }
 
 .level{
@@ -115,15 +108,6 @@
     border-radius: 3px;
     rotate: 90deg;
     display: none;
-}
-
-.digital-skills{
-    background-color: #404040;
-    padding: 40px;
-    border-radius: 1.25rem;
-    margin-bottom: 50px;
-    color: white;
-
 }
 
 .newlearn{
@@ -156,7 +140,11 @@
 @media screen and (max-width: 1200px) {
 
     .container-compétences{
-        padding: 0px 100px;
+        padding: 0px 50px;
+    }
+
+    .web-skills{
+        width: 189px;
     }
 
     .web-skills-title{
@@ -185,9 +173,19 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1100px) {
+    .container-compétences{
+        justify-content: space-around;
+    }
+
     .web-skills{
-        padding: 20px 10px 20px 10px;
+        width: 140px;
+        height: 550px  ;
+    }
+
+    .digital-skills{
+        height: 400px; 
+    
     }
 
     .web-skills-title{
@@ -217,28 +215,27 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 950px) {
 
     .container-compétences{
         padding: 0px 50px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 25px,
+        
     }
-
-    .web-skills{
-        margin-bottom: 30px;
-    }
-
-    .digital-skills{
-        margin-bottom: 30px;
-    }
-
+   
     .skill{
         padding-bottom: 15px;
         justify-content: center;
     }
+   
+    .web-skills{
+        height: auto;
+    }
 
-    .skills-duo{
-        display: flex;
-        flex-direction: column;
+    .skills2{
+        justify-content: space-evenly;
     }
 
     .newlearn{
@@ -252,22 +249,11 @@
 
 @media screen and (max-width: 420px) {
 
-    .logo-techno{
-        width: 25px;
-        height: 25px;   
+    .web-skills{
+        margin-bottom: 20px;
     }
 
     .container-compétences{
         padding: 0px 25px;
     }
-
-    .skill-title{
-        font-size: 12px;
-    }
-
-    .level{
-        font-size: 10px;
-    }
-
-   
 }
