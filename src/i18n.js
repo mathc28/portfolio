@@ -58,6 +58,7 @@ i18n
             projportfolio:'Création de mon propre portfolio',
             projseo:"Amélioration du référencement d'un portfolio d'une photographe bordelaise",
             projdebug:"Débug d'un site web d'agence événementielle et rédaction d'un cahier de recette",
+            projtodo:"Création d'une todo list en utilisant Vue.js",
             affichezplus: "Découvrez plus de projets",
             affichezmoins: "Afficher moins de projets",
 
@@ -115,6 +116,7 @@ i18n
             projportfolio:'Creation of my own portfolio.',
             projseo:"Improving the SEO of a Bordeaux photographer’s portfolio",
             projdebug:"Debugging an event agency website",
+            projtodo:"Creating a todo list using Vue.js",
             affichezplus: "discover more projects",
             affichezmoins: "show less projects",
 

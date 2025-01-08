@@ -10,15 +10,16 @@ import Photo4 from "../../assets/photo-projets/projet-4.webp";
 import Photo5 from "../../assets/photo-projets/projet-5.webp";
 import Photo6 from "../../assets/photo-projets/projet-6.webp";
 import Photo7 from "../../assets/photo-projets/projet-7.webp";
+import Photo8 from "../../assets/photo-projets/projet-8.webp"
 import Photo9 from "../../assets/photo-projets/projet-9.webp"; 
 import Photo10 from "../../assets/photo-projets/projet-10.webp"; 
-
+import Photo11 from "../../assets/photo-projets/todo-list.webp";
 import Logohtml from "../../assets/logo-techno/logo-html2.png"; 
 import Logocss from "../../assets/logo-techno/logo-css2.png"; 
 import Logojs from "../../assets/logo-techno/logo-js2.png";
 import Logoreact from "../../assets/logo-techno/logo-react3.png";
 import Logoblanc from "../../assets/logo-techno/fond-transparent.png";
-
+import Logovue from "../../assets/logo-techno/logo-vue.svg";
 import { useTranslation } from 'react-i18next';
 
 // (Les imports des photos et logos restent inchangés)
@@ -113,6 +114,25 @@ const cards = [
       techno2: Logoblanc,
       link1: "https://github.com/mathc28/724events-p10",
       link2: "https://mc-724events.vercel.app",
+    },
+    {
+      name: "Kasa",
+      description: 'projkasa',
+      photoproj: Photo8,
+      techno1: Logoreact,
+      techno2: Logocss,
+      link1: "https://github.com/mathc28/Kasa",
+      link2: "https://mc-kasa.vercel.app",
+    },
+
+    {
+      name: "Todo List",
+      description: 'projtodo',
+      photoproj: Photo11,
+      techno1: Logovue,
+      techno2: Logocss,
+      link1: "https://github.com/mathc28/todolist",
+      link2: "https://mc-todolist.vercel.app",
     },
   ];
 

@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.9103b36b.css",
-    "main.js": "/static/js/main.369fa73a.js",
+    "main.css": "/static/css/main.d20c2ee5.css",
+    "main.js": "/static/js/main.5dc0e643.js",
     "static/media/photo mc.jpeg": "/static/media/photo mc.01b9ff4cbafa641236af.jpeg",
     "static/media/logo mc gris .png": "/static/media/logo mc gris .3efbb8b7115d8ff3107e.png",
     "static/media/logo header MC 2.png": "/static/media/logo header MC 2.27e41c4e2ea9859479aa.png",
+    "static/media/todo-list.webp": "/static/media/todo-list.85d6a7342b99dd921fe6.webp",
     "static/media/projet-9.webp": "/static/media/projet-9.134c615b33517dfd58bf.webp",
     "static/media/projet-10.webp": "/static/media/projet-10.f99462e73206295b1ef6.webp",
     "static/media/github-logo.png": "/static/media/github-logo.987334e9f782cc505f25.png",
@@ -16,6 +17,7 @@
     "static/media/projet-3.webp": "/static/media/projet-3.5eb2061ef94334215410.webp",
     "static/media/projet-2.webp": "/static/media/projet-2.b9ba5e76b1cdfc313617.webp",
     "static/media/logo-react2.svg": "/static/media/logo-react2.2959897dc511384087f20d62d0cb004d.svg",
+    "static/media/projet-8.webp": "/static/media/projet-8.b78f1a92040fa4a8d974.webp",
     "static/media/gros-gear-solid.svg": "/static/media/gros-gear-solid.8d24c353bdf2b7be282a5f3a02d82bb4.svg",
     "static/media/petit-gear-solid.svg": "/static/media/petit-gear-solid.00c2008e55fdc1266315ea89eb6bafbd.svg",
     "index.html": "/index.html",
@@ -33,11 +35,11 @@
     "static/media/bullseye-solid.svg": "/static/media/bullseye-solid.3d611cc2b8cb0053faa8c196cfe5fc3b.svg",
     "static/media/logo-html2.svg": "/static/media/logo-html2.4d4e0df0ec74c4a859d7474abfc278c2.svg",
     "static/media/logo-vue.svg": "/static/media/logo-vue.1cf604bbf1f3287c4345e0aaba7865d6.svg",
-    "main.9103b36b.css.map": "/static/css/main.9103b36b.css.map",
-    "main.369fa73a.js.map": "/static/js/main.369fa73a.js.map"
+    "main.d20c2ee5.css.map": "/static/css/main.d20c2ee5.css.map",
+    "main.5dc0e643.js.map": "/static/js/main.5dc0e643.js.map"
   },
   "entrypoints": [
-    "static/css/main.9103b36b.css",
-    "static/js/main.369fa73a.js"
+    "static/css/main.d20c2ee5.css",
+    "static/js/main.5dc0e643.js"
   ]
 }
