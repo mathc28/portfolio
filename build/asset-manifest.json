@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.4cc6d34a.css",
+    "main.css": "/static/css/main.9103b36b.css",
     "main.js": "/static/js/main.369fa73a.js",
     "static/media/photo mc.jpeg": "/static/media/photo mc.01b9ff4cbafa641236af.jpeg",
     "static/media/logo mc gris .png": "/static/media/logo mc gris .3efbb8b7115d8ff3107e.png",
@@ -33,11 +33,11 @@
     "static/media/bullseye-solid.svg": "/static/media/bullseye-solid.3d611cc2b8cb0053faa8c196cfe5fc3b.svg",
     "static/media/logo-html2.svg": "/static/media/logo-html2.4d4e0df0ec74c4a859d7474abfc278c2.svg",
     "static/media/logo-vue.svg": "/static/media/logo-vue.1cf604bbf1f3287c4345e0aaba7865d6.svg",
-    "main.4cc6d34a.css.map": "/static/css/main.4cc6d34a.css.map",
+    "main.9103b36b.css.map": "/static/css/main.9103b36b.css.map",
     "main.369fa73a.js.map": "/static/js/main.369fa73a.js.map"
   },
   "entrypoints": [
-    "static/css/main.4cc6d34a.css",
+    "static/css/main.9103b36b.css",
     "static/js/main.369fa73a.js"
   ]
 }

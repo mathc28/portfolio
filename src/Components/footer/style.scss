@@ -11,7 +11,7 @@
     display: flex;
     flex-flow: row;
     align-items:center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .logoandaddress{
@@ -25,7 +25,7 @@
 .logof{
     width: 100px;
     height: 100px;
-    padding: 0px;
+    padding-bottom: 15px;
 }
 
 .footer__addr h2{
@@ -113,46 +113,42 @@
 
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 650px) {
 
-    .logoandaddress{
-        padding:0 0 15px 0px;
+    .footer {
+        align-items: center;
     }
 
-    .follow {
-    padding-right: 0px;
-    }
-
-    .footer-info{
-        flex-flow: column;
-    }
-
-    .copysmall{
-        display: flex;
-    }
-
-    .copylarge{
+    .footer__addr{
+        margin: 0;
         display: none;
     }
 
     .logof{
-        padding: 0px;
+        padding-top: 20px;
+        padding-bottom: 0px;
     }
 
-    .footer__addr h2{
-        padding-bottom: 5px;    
+    .footer-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; /* Définit un espacement précis entre les sections */
     }
 
-    .follow h2{
-        padding-bottom: 5px;
+    .logoandaddress {
+        margin: 0;
+        padding: 0 0 20px 0;
     }
 
-    .socials{
-        padding-bottom: 15px;
+    .follow {
+        margin: 0;
+        padding: 0; /* Réinitialise tout espacement vertical */
     }
-   
-    .contact {
-        display: none;
+
+    .copysmall{
+        display: block;
+        margin-top: 20px;
     }
 }
+
 
