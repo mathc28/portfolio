@@ -59,6 +59,8 @@ i18n
             projseo:"Amélioration du référencement d'un portfolio d'une photographe bordelaise",
             projdebug:"Débug d'un site web d'agence événementielle et rédaction d'un cahier de recette",
             projtodo:"Création d'une todo list en utilisant Vue.js",
+            projlapilli:"Création d'un site vitrine pour un couple de vignerons indépendants en Auvergne.",
+            projfabrik:"Audit SEO + application de l'audit sur le site web sur Wix",
             affichezplus: "Découvrez plus de projets",
             affichezmoins: "Afficher moins de projets",
 
@@ -117,6 +119,8 @@ i18n
             projseo:"Improving the SEO of a Bordeaux photographer’s portfolio",
             projdebug:"Debugging an event agency website",
             projtodo:"Creating a todo list using Vue.js",
+            projlapilli:"Creation of a showcase site for a couple of independent winegrowers in Auvergne.",
+            projfabrik:"SEO Audit + Application of the Audit to the Website on Wixn",
             affichezplus: "discover more projects",
             affichezmoins: "show less projects",
 

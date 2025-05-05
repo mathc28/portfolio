@@ -14,6 +14,8 @@ import Photo8 from "../../assets/photo-projets/projet-8.webp"
 import Photo9 from "../../assets/photo-projets/projet-9.webp"; 
 import Photo10 from "../../assets/photo-projets/projet-10.webp"; 
 import Photo11 from "../../assets/photo-projets/todo-list.webp";
+import Photo12 from "../../assets/photo-projets/lapilli.webp";
+import Photo13 from "../../assets/photo-projets/fabrik.webp";
 import Logohtml from "../../assets/logo-techno/logo-html2.png"; 
 import Logocss from "../../assets/logo-techno/logo-css2.png"; 
 import Logojs from "../../assets/logo-techno/logo-js2.png";
@@ -133,6 +135,26 @@ const cards = [
       techno2: Logocss,
       link1: "https://github.com/mathc28/todolist",
       link2: "https://mc-todolist.vercel.app",
+    },
+
+    {
+      name: "Domaine Lapilli",
+      description: 'projlapilli',
+      photoproj: Photo12,
+      techno1: Logohtml,
+      techno2: Logocss,
+      link1: "https://github.com/mathc28/Lapilli",
+      link2: "https://domaine-lapilli.com",
+    },
+
+    {
+      name: "La fabrique du hot-dog",
+      description: 'projfabrik',
+      photoproj: Photo13,
+      techno1: Logoblanc,
+      techno2: Logoblanc,
+      link1: "https://github.com/mathc28",
+      link2: "https://www.lafabriqueduhotdog.com",
     },
   ];
 
