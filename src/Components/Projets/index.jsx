@@ -175,8 +175,11 @@ const Card1 = () => {
   // Nombre de projets à afficher par défaut
   const initialProjectCount = 6;
 
-  // Liste des projets affichés
-const displayedCards = showAllProjects ? [...cards].reverse() : [...cards].slice(0, initialProjectCount).reverse();
+  // Inverser la liste une fois pour toutes sans modifier l'original
+  const reversedCards = [...cards].reverse();
+
+  // Ensuite, appliquer slice sur la liste inversée si besoin
+  const displayedCards = showAllProjects ? reversedCards : reversedCards.slice(0, initialProjectCount);
 
   return (
     <section className="page card-1-page" data-aos="fade-up">
