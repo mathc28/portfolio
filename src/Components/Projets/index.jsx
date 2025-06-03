@@ -176,7 +176,7 @@ const Card1 = () => {
   const initialProjectCount = 6;
 
   // Liste des projets affichés
-  const displayedCards = showAllProjects ? cards : cards.slice(0, initialProjectCount);
+const displayedCards = showAllProjects ? [...cards].reverse() : [...cards].slice(0, initialProjectCount).reverse();
 
   return (
     <section className="page card-1-page" data-aos="fade-up">
