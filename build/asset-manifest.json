@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d20c2ee5.css",
-    "main.js": "/static/js/main.bff2c873.js",
+    "main.js": "/static/js/main.34fb3649.js",
     "static/media/lapilli.webp": "/static/media/lapilli.37640c9c1ecf73e1d7de.webp",
     "static/media/fabrik.webp": "/static/media/fabrik.8a9cadef3f2fe11975b7.webp",
     "static/media/photo mc.jpeg": "/static/media/photo mc.01b9ff4cbafa641236af.jpeg",
@@ -38,10 +38,10 @@
     "static/media/logo-html2.svg": "/static/media/logo-html2.4d4e0df0ec74c4a859d7474abfc278c2.svg",
     "static/media/logo-vue.svg": "/static/media/logo-vue.1cf604bbf1f3287c4345e0aaba7865d6.svg",
     "main.d20c2ee5.css.map": "/static/css/main.d20c2ee5.css.map",
-    "main.bff2c873.js.map": "/static/js/main.bff2c873.js.map"
+    "main.34fb3649.js.map": "/static/js/main.34fb3649.js.map"
   },
   "entrypoints": [
     "static/css/main.d20c2ee5.css",
-    "static/js/main.bff2c873.js"
+    "static/js/main.34fb3649.js"
   ]
 }
