@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.82235ebd.css",
+    "main.css": "/static/css/main.d9bf82ca.css",
     "main.js": "/static/js/main.bff0d604.js",
     "static/media/lapilli.webp": "/static/media/lapilli.37640c9c1ecf73e1d7de.webp",
     "static/media/fabrik.webp": "/static/media/fabrik.8a9cadef3f2fe11975b7.webp",
@@ -24,11 +24,11 @@
     "index.html": "/index.html",
     "static/media/bars-solid.svg": "/static/media/bars-solid.8e942282b4d2cb38007a89ba6958419e.svg",
     "static/media/logo-vue.svg": "/static/media/logo-vue.1cf604bbf1f3287c4345e0aaba7865d6.svg",
-    "main.82235ebd.css.map": "/static/css/main.82235ebd.css.map",
+    "main.d9bf82ca.css.map": "/static/css/main.d9bf82ca.css.map",
     "main.bff0d604.js.map": "/static/js/main.bff0d604.js.map"
   },
   "entrypoints": [
-    "static/css/main.82235ebd.css",
+    "static/css/main.d9bf82ca.css",
     "static/js/main.bff0d604.js"
   ]
 }
