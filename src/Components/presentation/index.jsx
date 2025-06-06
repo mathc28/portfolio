@@ -32,8 +32,7 @@ const Presentation = () => {
           <div className="work">
             <Type />
           </div>
-          <div className="txt1">{t("pres3")}</div>
-        </div>
+          <div className="txt1" dangerouslySetInnerHTML={{ __html: t("pres3") }}/></div>
       </div>
     </div>
   );

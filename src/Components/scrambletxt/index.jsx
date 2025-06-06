@@ -9,16 +9,16 @@ const Type = () => {
     const { t } = useTranslation();
     // hook returns a ref
     const { ref } = useScramble({ 
-    text: "Frontend Web Developper", 
-    range: [65,125],
-    speed: 1,
-    tick: 10,
-    step: 1,
-    scramble: 10,
-    seed: 6,
-    chance: 1,
+    text: "Freelance Web Developer", 
+    range: [33,90],
+    speed: 3,
+    tick: 8,
+    step: 2,
+    scramble: 6,
+    seed: 3,
+    chance: 0.5,
     overdrive: false,
-    overflow: true,
+    overflow: false,
   });
 
   // apply the ref to a node

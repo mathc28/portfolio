@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d20c2ee5.css",
-    "main.js": "/static/js/main.34fb3649.js",
+    "main.css": "/static/css/main.82235ebd.css",
+    "main.js": "/static/js/main.bff0d604.js",
     "static/media/lapilli.webp": "/static/media/lapilli.37640c9c1ecf73e1d7de.webp",
     "static/media/fabrik.webp": "/static/media/fabrik.8a9cadef3f2fe11975b7.webp",
     "static/media/photo mc.jpeg": "/static/media/photo mc.01b9ff4cbafa641236af.jpeg",
@@ -18,30 +18,17 @@
     "static/media/projet-6.webp": "/static/media/projet-6.b41a6f6661e7fdd2c4ca.webp",
     "static/media/projet-3.webp": "/static/media/projet-3.5eb2061ef94334215410.webp",
     "static/media/projet-2.webp": "/static/media/projet-2.b9ba5e76b1cdfc313617.webp",
-    "static/media/logo-react2.svg": "/static/media/logo-react2.2959897dc511384087f20d62d0cb004d.svg",
     "static/media/projet-8.webp": "/static/media/projet-8.b78f1a92040fa4a8d974.webp",
     "static/media/gros-gear-solid.svg": "/static/media/gros-gear-solid.8d24c353bdf2b7be282a5f3a02d82bb4.svg",
     "static/media/petit-gear-solid.svg": "/static/media/petit-gear-solid.00c2008e55fdc1266315ea89eb6bafbd.svg",
     "index.html": "/index.html",
-    "static/media/logo-figma.svg": "/static/media/logo-figma.4fb9cc9c6f6da1eab2d11557e3a881dd.svg",
-    "static/media/star-regular.svg": "/static/media/star-regular.a8ced2b9859578ff618ee4415fd7cb4f.svg",
-    "static/media/list-solid.svg": "/static/media/list-solid.927767e1bf8f48eb24fbda842acbb92a.svg",
-    "static/media/thumbs-up-solid.svg": "/static/media/thumbs-up-solid.9fb33a6e5c0aa8059ce4e3cf8490899d.svg",
-    "static/media/ranking-star-solid.svg": "/static/media/ranking-star-solid.fba12bc0291c91fd0deca8f3a3b6ace7.svg",
-    "static/media/hashtag-solid.svg": "/static/media/hashtag-solid.8b6d7e242b0bf68aacdcaed9190396cb.svg",
-    "static/media/logo-js2.svg": "/static/media/logo-js2.2b0855db530f94423fc84c32d7506c48.svg",
-    "static/media/star-solid.svg": "/static/media/star-solid.d415cb106593cd5f67651683f8d1b083.svg",
     "static/media/bars-solid.svg": "/static/media/bars-solid.8e942282b4d2cb38007a89ba6958419e.svg",
-    "static/media/envelope-solid.svg": "/static/media/envelope-solid.909c5750ec57f5215c3b482f1e9dde40.svg",
-    "static/media/logo-css2.svg": "/static/media/logo-css2.bf8d00762f234011d8abba405a192f36.svg",
-    "static/media/bullseye-solid.svg": "/static/media/bullseye-solid.3d611cc2b8cb0053faa8c196cfe5fc3b.svg",
-    "static/media/logo-html2.svg": "/static/media/logo-html2.4d4e0df0ec74c4a859d7474abfc278c2.svg",
     "static/media/logo-vue.svg": "/static/media/logo-vue.1cf604bbf1f3287c4345e0aaba7865d6.svg",
-    "main.d20c2ee5.css.map": "/static/css/main.d20c2ee5.css.map",
-    "main.34fb3649.js.map": "/static/js/main.34fb3649.js.map"
+    "main.82235ebd.css.map": "/static/css/main.82235ebd.css.map",
+    "main.bff0d604.js.map": "/static/js/main.bff0d604.js.map"
   },
   "entrypoints": [
-    "static/css/main.d20c2ee5.css",
-    "static/js/main.34fb3649.js"
+    "static/css/main.82235ebd.css",
+    "static/js/main.bff0d604.js"
   ]
 }

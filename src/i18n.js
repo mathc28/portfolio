@@ -26,9 +26,8 @@ i18n
             contact:'Contact',
 
             pres1: "Salut, moi c'est",
-            pres2: 'et je suis Développeur Web Junior ',
-            pres3: "À 31 ans, je suis en reconversion professionnelle pour intégrer le domaine du développement web. Actuellement en formation de développeur web front-end chez OpenClassrooms et titulaire d'un master (bac +5) de l'ESC Clermont, j'ai choisi de me réorienter vers le développement web pour relever de nouveaux défis professionnels. Au cours de cette formation, j'ai acquis une forte compréhension des langages de programmation front-end tels que HTML, CSS et JavaScript, et j'ai pu appliquer ces compétences à la réalisation de projets concrets. Je suis désormais à la recherche d'un poste de développeur web junior dans la région lyonnaise ou à l'international.",
-
+            pres2: 'et je suis Freelance ',
+            pres3: "🎯 <strong>Développeur front-end & intégrateur WordPress freelance</strong><br/>Je conçois des sites web modernes, rapides et sur-mesure pour les entrepreneurs, PME, indépendants et agences qui souhaitent renforcer leur présence en ligne.<br/><br/>💡 De la création de sites vitrines à la refonte complète, en passant par l’intégration de thèmes WordPress personnalisés, j’interviens à chaque étape avec rigueur et créativité.<br/><br/>🔧 Mon objectif : vous livrer un site performant, responsive, optimisé pour le SEO, facile à administrer et aligné avec vos besoins métier.<br/><br/>📍 Basé à Lyon, je travaille <strong>à distance ou sur place</strong>, partout en France et dans la francophonie.",
             comptitre:'MES COMPÉTENCES',
             compsoustitre:'Développement Web',
             lvlavan: 'Niveau : Avancé',
@@ -39,6 +38,7 @@ i18n
             socialmed:'Social Media',
             contentcrea:'Contenu',
             stratmarket:'Stratégie',
+            skillsintro: "Fort d’une formation solide en développement front-end et d’une expérience concrète sur des projets variés, j’ai acquis un ensemble de compétences techniques et créatives me permettant de concevoir des sites web performants, esthétiques et bien structurés.<br/><br/>De l’intégration HTML/CSS au développement en JavaScript/React, en passant par la création de sites WordPress sur mesure, je maîtrise chaque étape de la réalisation d’un site moderne, responsive et optimisé pour le référencement.",
             nsl:"N'arrêtez jamais d'apprendre. Nouvelles compétences en cours : Typescript, Next.js, gsap",
             projects: 'MES PROJETS',
             ensavplus: 'En savoir plus',
